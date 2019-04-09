@@ -1,7 +1,6 @@
 # Site
 title:              Brian Asimba
-bio:                'Aeronautical Engineer | Simulation Stamping Engineer | Machine Learning Enthusiast | Stock Market Enthusuast.'
-description:        "I am a graduate of Western Michigan University with a Bachelors in Aeronautical Engineering. 
+bio:                'I am a graduate of Western Michigan University with a Bachelors in Aeronautical Engineering. 
                     I currently work at Tesla as a Tooling Simulation Engineer. On my time away from work, I like 
                     reading on Engineering, stocks, investments, playing soccer and now learning Machine and applying 
                     Machine Learning. I first hear of Machine Learning back in 2017, but I did not really start to 
@@ -14,7 +13,8 @@ description:        "I am a graduate of Western Michigan University with a Bache
                     There is a saying, if you cannot explain it simple enough to someone who does not know it, then 
                     you did not understand it. This is one more reason I am doing this blog. I have gone through a 
                     lot of blogs, but none of it goes from introduction to coding complex Reinforcement learning systems. 
-                    I am excited for the future use cases of Machine Learning algorithms."
+                    I am excited for the future use cases of Machine Learning algorithms.'
+description:        "This blog is for"
 reading_time:       true
 words_per_minute:   200
 logo:               'Photo of me.jpg'
