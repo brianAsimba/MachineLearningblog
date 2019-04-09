@@ -4,7 +4,7 @@ bio:                'Aeronautical Engnieer | Simulation Stamping Engieer | Machi
 description:        "Brian is an enthusuiastic Engineer etc."
 reading_time:       true
 words_per_minute:   200
-logo:               'A.I logo.jpg'
+logo:               'photo of me.jpg'
 background:         'background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
