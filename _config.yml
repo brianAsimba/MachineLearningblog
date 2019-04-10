@@ -1,6 +1,7 @@
 # Site
 title:              Brian Asimba
-bio:                'I am a graduate of Western Michigan University with a Bachelors in Aeronautical Engineering. 
+bio:                |+
+                    'I am a graduate of Western Michigan University with a Bachelors in Aeronautical Engineering. 
                     I currently work at Tesla as a Tooling Simulation Engineer. On my time away from work, 
                     I like reading on Engineering, stocks, investments, playing soccer and now learning Machine 
                     and applying Machine Learning. I first hear of Machine Learning back in 2017, but I did not 
