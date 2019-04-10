@@ -3,14 +3,10 @@ title:              Brian Asimba
 bio:                'I first heard of Machine Learning back in 2017, but I did not really start to 
                     get serious until last year when I was talking to my friend at Tesla who was playing around with 
                     Neural Networks. I started a group in Tesla and I have taken a Machine Learning certificate course 
-                    from Stanford University in order to better grasp the concepts. 
-                    
-                    I started this blog to help others that are interested in the hot topic of Machine Learning, and want 
+                    from Stanford University in order to better grasp the concepts. I started this blog to help others that are interested in the hot topic of Machine Learning, and want 
                     to dig in to the nitty gritty or anyoone who just wants to learn more about Machine Learning. We will 
                     start with basic concepts and we will dive into code that I wrote while following Andrew Ng Machine 
-                    Learning Coursera course. 
-                    
-                    There is a saying, if you cannot explain it simple enough to someone who has never heard of it, then 
+                    Learning Coursera course.There is a saying, if you cannot explain it simple enough to someone who has never heard of it, then 
                     you did not understand it good enough. This is one more reason I am doing this blog. This will also be 
                     a learning space to discuss concepts and give feedback on the blog's content.I am excited for the future 
                     use cases of Machine Learning algorithms.'
