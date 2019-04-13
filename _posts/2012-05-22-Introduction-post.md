@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction to Machine Learning"
 date: 2019-04-13
-excerpt: "Supervised Machine Learning."
+excerpt: "Supervised Machine Learning"
 tags: [Machine Learning, Supervised, Unsupervised]
 comments: true
 ---
