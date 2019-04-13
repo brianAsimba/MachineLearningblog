@@ -17,3 +17,5 @@ There are various types of Machine Learning. From the diagram below, you can see
 
 
 Source: https://askdatascience.com/13/what-are-the-main-branches-of-machine-learning
+
+Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
