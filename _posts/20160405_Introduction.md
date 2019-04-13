@@ -7,14 +7,6 @@ tags: [sample post, readability, test]
 comments: true
 ---
 
+Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
 
-What is Machine Learning?
-
-Machine learning is the science and art of programming computers to learn from data. 
-Machine Learning has been a hot topic lately. This is because of the applications currently 
-utilizing Machine Learning. Every day we use Machine Learning in some shape pf form without 
-knowing. Some of the examples are Amazon recommender systems, google searching algorithm, 
-spam detection in emails, credit card fraudulent detection, mailing addresses algorithm 
-reader, customer segmentation and lastly self-driving to name a few. According to Tom 
-Mitchell, a computer program is said to learn from experience E with respect to some 
-task T and some performance measure P, if its performance on T, as measured by, improves with experience E.
+Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
