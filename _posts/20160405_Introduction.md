@@ -8,7 +8,7 @@ comments: true
 ---
 
 
-# What is Machine Learning?
+What is Machine Learning?
 
 Machine learning is the science and art of programming computers to learn from data. 
 Machine Learning has been a hot topic lately. This is because of the applications currently 
