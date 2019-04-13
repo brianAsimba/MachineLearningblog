@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
-date: 2012-05-22
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+title: "Introduction to Machine Learning"
+date: 2019-04-13
+excerpt: "Suoervised Learning."
+tags: [Machine Learning, Supervised, Unsupervised]
 comments: true
 ---
 
