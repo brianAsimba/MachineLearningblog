@@ -19,3 +19,46 @@ There are various types of Machine Learning. From the diagram below, you can see
 Source: https://askdatascience.com/13/what-are-the-main-branches-of-machine-learning
 
 Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
+Supervised Learning:
+Supervised learning is where the algorithm is trained using the correct target values. In this algorithm, the training is done on the data and error is calculated from the difference between the predicted values and the correct values. Supervised learning can also be further divided into regression and classification algorithms. Regression is where the supervised algorithm is predicting a continuous problem, such as price of a house in house prediction. Classification is where the algorithm tries to predict discrete values for example, 0 or 1, malignant or benign tumor, spam or non-spam emails.
+
+In Machine Learning data attributes are called features. In prediction of housing prices we might use features such as house size, number of bedrooms, number of bathrooms, proximity to downtown etc, all there are features of the algorithm.
+Regression algorithms can be used to perform classifications too. One of the most common used algorithms for classification is Logistic Regression. It gives the probabilities of belonging to a given class. Some examples of supervised learning algorithms are:
+Linear Regression.
+Logistic regression
+Neural Networks.
+K- Nearest neighbors.
+Support Vector Machines.
+Decision trees and random forests.
+Unsupervised Learning
+Unsupervised learning is a type of algorithm where the prediction is made on data that is unlabeled. In this algorithm, the algorithm is given data and it used patterns to cluster data based on their similarities. Some of the unsupervised learning algorithms are:
+Clustering- K Means, Hierarchical Cluster Analysis, Expectation Maximization.
+Principal Component Analysis (PCA).
+An example of unsupervised learning use case can be seen in Google clustering related news from different sources under one URL link, market segmentation, social network analysis and astronomical data analysis.
+One very important task is dimensionality reduction, where we reduce the number of features in our dataset while also keeping the most important features.  This can be done by a combination of some parameters, for example, the square feet of a house is more important than the width of the house. Some factors combined might be more important than one factor, such as age and some illnesses.
+
+Semi-supervised learning
+This is the kind of algorithm where some data is labelled while some data is unlabeled. A great example is when we upload photos on Facebook with the same person the algorithm recognizes them. After applying a label to the person, the algorithm will be able to name all the pictures with the same person. One example of this is the deep belief networks, which is composed of unsupervised Restricted Boltzmann machines stacked on top of each other.
+Reinforcement Learning:
+Reinforcement learning is a much deeper type of algorithm. In this type of algorithm, the learning system, called an agent, observes the environment, select and perform actions, and get rewards or penalties in the form of negative rewards. The best strategy, called policy defines what action the agent needs to take overtime to maximize rewards. This algorithm can be used in the stock market where the reward for the algorithm is to maximize the returns, and the system figures out what the best actions are to maximize the profits while it is gets negative rewards for losses.
+
+In the programming exercises, that I will be doing, I will be using Octave software. This is the same as Matlab but it is a free open source software. This is because Octave/ Matlab makes it very easy to prototype than using Java/ C++ which takes a lot of code to do. It is therefore advisable to know a prototyping language then after there is proof it works, we can move to the more complicated programming languages such as C++. After proving the code works in Octave, I will move to Python to write my algorithms.
+Linear Regression
+This is the simplest type of Supervised learning where a model is used to predict a continuous value. The best well known example is the Portland housing price prediction. For the housing price prediction we use a housing price, we will use the housing price dataset.
+
+Linear Regression
+Linear regression is a type of supervised learning algorithm where predictions are made using a model that fits the data linearly on the data. Regression comes from the fact that the prediction output values are continuous. Some of the most common notations used in Machine Learning are:
+m- Number of training examples.
+x- Input variables
+y-Output variables
+(x,y)- one training example, showing the input and output.
+The data that is used to train the algorithm is called the training set.
+
+
+
+
+
+I am a graduate of Western Michigan University with a Bachelors in 
+                    Aeronautical Engineering.I currently work at Tesla as a Tooling Simulation Engineer. On my timea way from work, I like 
+                    reading on Engineering, stocks, investments, playing soccer and now learning and applying 
+                    Machine Learning.
