@@ -37,7 +37,7 @@ Principal Component Analysis (PCA).
 An example of unsupervised learning use case can be seen in Google clustering related news from different sources under one URL link, market segmentation, social network analysis and astronomical data analysis.
 One very important task is dimensionality reduction, where we reduce the number of features in our dataset while also keeping the most important features.  This can be done by a combination of some parameters, for example, the square feet of a house is more important than the width of the house. Some factors combined might be more important than one factor, such as age and some illnesses.
 
-Semi-supervised learning
+# **Semi-supervised learning**
 This is the kind of algorithm where some data is labelled while some data is unlabeled. A great example is when we upload photos on Facebook with the same person the algorithm recognizes them. After applying a label to the person, the algorithm will be able to name all the pictures with the same person. One example of this is the deep belief networks, which is composed of unsupervised Restricted Boltzmann machines stacked on top of each other.
 Reinforcement Learning:
 Reinforcement learning is a much deeper type of algorithm. In this type of algorithm, the learning system, called an agent, observes the environment, select and perform actions, and get rewards or penalties in the form of negative rewards. The best strategy, called policy defines what action the agent needs to take overtime to maximize rewards. This algorithm can be used in the stock market where the reward for the algorithm is to maximize the returns, and the system figures out what the best actions are to maximize the profits while it is gets negative rewards for losses.
@@ -46,7 +46,7 @@ In the programming exercises, that I will be doing, I will be using Octave softw
 Linear Regression
 This is the simplest type of Supervised learning where a model is used to predict a continuous value. The best well known example is the Portland housing price prediction. For the housing price prediction we use a housing price, we will use the housing price dataset.
 
-#**Linear Regression**
+# **Linear Regression**
 Linear regression is a type of supervised learning algorithm where predictions are made using a model that fits the data linearly on the data. Regression comes from the fact that the prediction output values are continuous. Some of the most common notations used in Machine Learning are:
 m- Number of training examples.
 x- Input variables
