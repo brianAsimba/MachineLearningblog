@@ -21,6 +21,13 @@ bio:                >+
                     learning systems.
                      
                     I am excited for the future use cases of Machine Learning algorithms.'
+                    
+                    >\n
+                    ··Several lines of text,\n
+                    ··with some "quotes" of various 'types',\n
+                    ··and also a blank line:\n
+                    ··\n
+                    ··plus another line at the end.\n
 description:        "Aeronautical Engineer | Simulation Engineer | Machine Learning enthuisiast"
 reading_time:       true
 words_per_minute:   200
