@@ -16,7 +16,7 @@ There are various types of Machine Learning. From the diagram below, you can see
 
 
 <figure>
-	<a href="https://www.dropbox.com/home/Machine%20Learning%20blog?preview=branches.png"><img src="https://www.dropbox.com/home/Machine%20Learning%20blog?preview=branches.png"></a>
+	<a href="https://www.dropbox.com/home/Machine%20Learning%20blog?preview=Picture1.png"><img src="https://www.dropbox.com/home/Machine%20Learning%20blog?preview=Picture1.png"></a>
 	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
