@@ -46,7 +46,7 @@ In the programming exercises, that I will be doing, I will be using Octave softw
 Linear Regression
 This is the simplest type of Supervised learning where a model is used to predict a continuous value. The best well known example is the Portland housing price prediction. For the housing price prediction we use a housing price, we will use the housing price dataset.
 
-Linear Regression
+#**Linear Regression**
 Linear regression is a type of supervised learning algorithm where predictions are made using a model that fits the data linearly on the data. Regression comes from the fact that the prediction output values are continuous. Some of the most common notations used in Machine Learning are:
 m- Number of training examples.
 x- Input variables
