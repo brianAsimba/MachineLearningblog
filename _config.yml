@@ -8,7 +8,6 @@ bio:                |+
                     really start to get serious until last year when I was talking to my friend at Tesla who was 
                     playing around with Neural Networks. 
                     
-                    |+
                     I started a group in Tesla and I have taken a Machine 
                     Learning certificate course from Stanford University in order to better grasp the concepts. 
                     I started this blog to help others that are interested in the hot topic of Machine Learning, 
@@ -16,13 +15,11 @@ bio:                |+
                     begin. At first it, will be a lot of reading, then we will dive into code that I wrote 
                     while following Andrew Ng Machine Learning Coursera course. 
                      
-                    |+
                     There is a saying, if you cannot explain it simple enough to someone who does not know it, then you did not 
                     understand it. This is one more reason I am doing this blog. I have gone through a 
                     lot of blogs, but none of it goes from introduction to coding complex Reinforcement 
                     learning systems.'
                      
-                    |+
                     I am excited for the future use cases of Machine Learning algorithms.'
 description:        "Aeronautical Engineer | Simulation Engineer | Machine Learning enthuisiast"
 reading_time:       true
