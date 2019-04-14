@@ -15,10 +15,9 @@ Machine learning is the science and art of programming computers to learn from d
 There are various types of Machine Learning. From the diagram below, you can see the main branches of Machine Learning:
 <figure>
 	<img src="/background.jpg" alt="hi" class="inline">
-	<figcaption>Three images.</figcaption>
 </figure>
 
-
+<figcaption>Three images.</figcaption>
 Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
 Supervised Learning:
 Supervised learning is where the algorithm is trained using the correct target values. In this algorithm, the training is done on the data and error is calculated from the difference between the predicted values and the correct values. Supervised learning can also be further divided into regression and classification algorithms. Regression is where the supervised algorithm is predicting a continuous problem, such as price of a house in house prediction. Classification is where the algorithm tries to predict discrete values for example, 0 or 1, malignant or benign tumor, spam or non-spam emails.
