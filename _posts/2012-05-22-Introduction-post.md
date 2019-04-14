@@ -58,7 +58,3 @@ The data that is used to train the algorithm is called the training set.
 
 
 
-I am a graduate of Western Michigan University with a Bachelors in 
-                    Aeronautical Engineering.I currently work at Tesla as a Tooling Simulation Engineer. On my timea way from work, I like 
-                    reading on Engineering, stocks, investments, playing soccer and now learning and applying 
-                    Machine Learning.
