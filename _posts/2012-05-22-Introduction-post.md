@@ -68,6 +68,8 @@ Size in Ft. squared | Price in dollars ('000)
 The main objective in Machine Learning is finding a relationship that matches the features in the first column to the output, then use this relation ship to pridict other outcomes given different features. Given the sizes of the houses and proces of the houses, a Supervised Learning algorithm would come up with a hypotheses that fits the featyres to the output in the most accurate way.
 
 We represent the hypotheses as:
+$$\\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
 
 
 
