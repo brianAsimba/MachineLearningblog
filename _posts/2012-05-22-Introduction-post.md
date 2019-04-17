@@ -59,6 +59,16 @@ y-Output variables
 (x,y)- one training example, showing the input and output.
 The data that is used to train the algorithm is called the training set.
 
+Size in Ft. squared | Price in dollars ('000)
+------------ | -------------
+1200 | 720
+500 | 320
+5000 | 1000
+
+The main objective in Machine Learning is finding a relationship that matches the features in the first column to the output, then use this relation ship to pridict other outcomes given different features. Given the sizes of the houses and proces of the houses, a Supervised Learning algorithm would come up with a hypotheses that fits the featyres to the output in the most accurate way.
+
+We represent the hypotheses as:
+
 
 
 
