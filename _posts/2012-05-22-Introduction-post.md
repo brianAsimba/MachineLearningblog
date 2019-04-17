@@ -69,6 +69,7 @@ The main objective in Machine Learning is finding a relationship that matches th
 
 We represent the hypotheses as:
 $$\\( 1/x^{2} \\), and here is a block rendering: 
+$$
 \\[ \frac{1}{n^{2}} \\]
 
 
