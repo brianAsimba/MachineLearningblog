@@ -70,6 +70,7 @@ The main objective in Machine Learning is finding a relationship that matches th
 We represent the hypotheses as:
 \\[h_\theta(x)={\theta_0} + {\theta_1 x}\\] 
 
-Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest type pf algorithm to start with. Later on we will move to algorith equations with more that none feature as well non-linear fuctions.
+Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest type pf algorithm to start with. Later on we will move to algorith equations with more that none feature as well non-linear fuctions. In this equation \\(\theta\\) are called paramteters and x is the feature.
 
-
+# **Cost function**
+Cost function is the error that 
