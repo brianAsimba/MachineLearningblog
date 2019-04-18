@@ -29,6 +29,11 @@ $$
 </figure>
 
 
+<figure>
+	<img src="background.jpg">
+	<figcaption>Caption describing these three images.</figcaption>
+</figure>
+
 
 <figcaption>Three images.</figcaption>
 Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
