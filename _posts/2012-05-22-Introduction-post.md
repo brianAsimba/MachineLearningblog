@@ -17,10 +17,9 @@ There are various types of Machine Learning. From the diagram below, you can see
 .. figure:: /images/ML_branches.png
 
 
-<figure>
+
 <img src="background.jpg"/> 
     
-</figure>
 
 $$
 <figure>
