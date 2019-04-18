@@ -14,6 +14,9 @@ Machine learning is the science and art of programming computers to learn from d
 ## Types of Machine Learning:
 There are various types of Machine Learning. From the diagram below, you can see the main branches of Machine Learning:
 
+.. figure:: /images/ML_branches.png
+
+
 <figure>
 <img src="background.jpg"/> 
     
