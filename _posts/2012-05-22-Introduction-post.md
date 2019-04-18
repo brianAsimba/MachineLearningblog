@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "Introduction to Machine Learning"
-date: 2019-04-13
-excerpt: "Supervised Machine Learning"
-tags: [Machine Learning, Supervised, Unsupervised]
+title: Introduction to Machine Learning
+date: {}
+excerpt: Supervised Machine Learning
+tags:
+  - Machine Learning
+  - Supervised
+  - Unsupervised
 comments: true
+published: true
 ---
 
 ## What is Machine Learning
@@ -21,21 +25,9 @@ There are various types of Machine Learning. From the diagram below, you can see
     
  ![](images/ML_branches.png)
     
-</figure>
-$$
-<figure>
-	<a href="https://www.dropbox.com/home/Machine%20Learning%20blog?preview=Picture1.png width="18px">"><img src="https://www.dropbox.com/home/Machine%20Learning%20blog?preview=Picture1.png width="18px">></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
-</figure>
-
-
-<figure>
-	<img src="background.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
-
-
-<figcaption>Three images.</figcaption>
+![]({{site.baseurl}}/https://www.dropbox.com/home/Machine%20Learning%20blog?preview=branches.png)
+  
+  
 Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
 Supervised Learning:
 Supervised learning is where the algorithm is trained using the correct target values. In this algorithm, the training is done on the data and error is calculated from the difference between the predicted values and the correct values. Supervised learning can also be further divided into regression and classification algorithms. Regression is where the supervised algorithm is predicting a continuous problem, such as price of a house in house prediction. Classification is where the algorithm tries to predict discrete values for example, 0 or 1, malignant or benign tumor, spam or non-spam emails.
@@ -86,4 +78,4 @@ We represent the hypotheses as:
 Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest type pf algorithm to start with. Later on we will move to algorith equations with more that none feature as well non-linear fuctions. In this equation \\(\theta\\) are called paramteters and x is the feature.
 
 # **Cost function**
-From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/ hypothesis functions. 
+From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/ hypothesis functions.
