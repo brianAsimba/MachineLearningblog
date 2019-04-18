@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Machine Learning
-date: {}
+date: 2019-04-18
 excerpt: Supervised Machine Learning
 tags:
   - Machine Learning
