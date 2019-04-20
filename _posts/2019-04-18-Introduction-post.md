@@ -90,6 +90,22 @@ The cost function is defined as:
 
 \\[J(\theta_0, \theta_1) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\] 
 
+Where m is the number of training example and i is the number of the training example in the list. From the equation, the objective is to minimize the difference between the hyoothesis and the correct value, y. This mathematical equation minimizes the error in the algorithm. The square in the equation is to simplify the differentiation for backpropagation. This cost function is called the square eroor function and it is the most commonly used cost function for regression problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
