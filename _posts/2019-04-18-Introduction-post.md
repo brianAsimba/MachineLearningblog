@@ -84,7 +84,11 @@ The objective is to find the best fitting plot given data as shown below:
 
 By using different \\(\theta\\) parameters, we are able to come up with the line the best fits the data. This can be achieved by minimizing the different between the correct values and the hypothesis predictions.
 
-\\[minimize_{\theta_0} {\theta_1}_(h_{\theta(x)} - y)\\] 
+
+The cost function is defined as:
+
+
+\\[J(\theta_0, \theta_1) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x^i)) - y)^2\\] 
 
 
 
