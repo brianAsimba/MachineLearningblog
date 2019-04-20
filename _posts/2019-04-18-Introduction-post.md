@@ -88,7 +88,7 @@ By using different \\(\theta\\) parameters, we are able to come up with the line
 The cost function is defined as:
 
 
-\\[J(\theta_0, \theta_1) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x^i)) - y)^2\\] 
+\\[J(\theta_0, \theta_1) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x^i)) - y(^i)^2\\] 
 
 
 
