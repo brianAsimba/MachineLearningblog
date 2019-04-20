@@ -76,9 +76,13 @@ Most of you would remember this equation is similar to y = mx + C, which is the 
 # **Cost function**
 From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/ hypothesis functions. By using different theta parameters, we are able to fit the curves differenty to different data.
 
+The image below shows equations y = 2, y = 2x and y = 2x + 1.
 
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Theta.png" style="display: block; margin: auto;" />
 
+The objective is to find the best fitting plot given data as shown below:
+
+By using different \\(\theta\\) parameters, we are able to come up with the line the best fits the data. This can be achieved by minimizing the different between the correct values and the hypothesis predictions.
 
 
 
