@@ -77,7 +77,7 @@ Most of you would remember this equation is similar to y = mx + C, which is the 
 From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/ hypothesis functions. By using different theta parameters, we are able to fit the curves differenty to different data.
 
 
-<img src="https://brianasimba.github.io/MLblog/images/Theta_parameters.png" style="display: block; margin: auto;" />
+<img src=" https://brianasimba.github.io/MachineLearningblog/images/Theta.png" style="display: block; margin: auto;" />
 
 
 
