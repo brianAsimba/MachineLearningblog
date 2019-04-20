@@ -15,7 +15,7 @@ published: true
 
 Machine learning is the science and art of programming computers to learn from data. Machine Learning has been a hot topic lately. This is because of the applications currently utilizing Machine Learning. Every day we use Machine Learning in some shape pf form without knowing. Some of the examples are Amazon recommender systems, google searching algorithm, spam detection in emails, credit card fraudulent detection, mailing addresses algorithm reader, customer segmentation and lastly self-driving to name a few. According to Tom Mitchell, a computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by, improves with experience E.
 
-## Types of Machine Learning:
+## Types of Machine Learning
 There are various types of Machine Learning. From the diagram below, you can see the main branches of Machine Learning:
 
     
@@ -23,7 +23,8 @@ There are various types of Machine Learning. From the diagram below, you can see
   
   
 Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
-Supervised Learning:
+
+## Supervised Learning
 Supervised learning is where the algorithm is trained using the correct target values. In this algorithm, the training is done on the data and error is calculated from the difference between the predicted values and the correct values. Supervised learning can also be further divided into regression and classification algorithms. Regression is where the supervised algorithm is predicting a continuous problem, such as price of a house in house prediction. Classification is where the algorithm tries to predict discrete values for example, 0 or 1, malignant or benign tumor, spam or non-spam emails.
 
 In Machine Learning data attributes are called features. In prediction of housing prices we might use features such as house size, number of bedrooms, number of bathrooms, proximity to downtown etc, all there are features of the algorithm.
@@ -34,14 +35,15 @@ Neural Networks.
 K- Nearest neighbors.
 Support Vector Machines.
 Decision trees and random forests.
-Unsupervised Learning
+
+## Unsupervised Learning
 Unsupervised learning is a type of algorithm where the prediction is made on data that is unlabeled. In this algorithm, the algorithm is given data and it used patterns to cluster data based on their similarities. Some of the unsupervised learning algorithms are:
 Clustering- K Means, Hierarchical Cluster Analysis, Expectation Maximization.
 Principal Component Analysis (PCA).
 An example of unsupervised learning use case can be seen in Google clustering related news from different sources under one URL link, market segmentation, social network analysis and astronomical data analysis.
 One very important task is dimensionality reduction, where we reduce the number of features in our dataset while also keeping the most important features.  This can be done by a combination of some parameters, for example, the square feet of a house is more important than the width of the house. Some factors combined might be more important than one factor, such as age and some illnesses.
 
-# **Semi-supervised learning**
+## Semi-supervised learning
 This is the kind of algorithm where some data is labelled while some data is unlabeled. A great example is when we upload photos on Facebook with the same person the algorithm recognizes them. After applying a label to the person, the algorithm will be able to name all the pictures with the same person. One example of this is the deep belief networks, which is composed of unsupervised Restricted Boltzmann machines stacked on top of each other.
 Reinforcement Learning:
 Reinforcement learning is a much deeper type of algorithm. In this type of algorithm, the learning system, called an agent, observes the environment, select and perform actions, and get rewards or penalties in the form of negative rewards. The best strategy, called policy defines what action the agent needs to take overtime to maximize rewards. This algorithm can be used in the stock market where the reward for the algorithm is to maximize the returns, and the system figures out what the best actions are to maximize the profits while it is gets negative rewards for losses.
