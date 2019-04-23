@@ -92,6 +92,13 @@ The cost function is defined as:
 
 Where m is the number of training example and i is the number of the training example in the list. From the equation, the objective is to minimize the difference between the hyoothesis and the correct value, y. This mathematical equation minimizes the error in the algorithm. The square in the equation is to simplify the differentiation for backpropagation. This cost function is called the square error function and it is the most commonly used cost function for regression problems.
 
+Below are graphs showing cimple cost functions and how to get to the minimum \\(\theta\\) values that minimize the hypothesis functions. This graphs have only one theta values, which means one feature. A sanity check for convergence of the algorithm is done by plotting cost function J((\\theta\\))versus \\(\theta\\) and the error should be reducing with increase in gradient dsescent steps. Later on we will discuss factors such as variance and bias which assist in avoid underfitting and overfitting problems.
+
+
+ For graphs with more that one feature, more than one \\(\theta\\) parameter, it is not easy to visualize the cost function. To visualize this, a contour plot if used to check for the convergence or just a plot of cost function versus \\(\theta\\) and then we check if the plot is reducing with each iteration.
+ 
+ Gradient descent is the way the hypothesis is minimized mathematically until the minimum \\(\theta\\) parameters are computed. 
+
 
 
 
