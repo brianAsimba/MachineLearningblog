@@ -117,7 +117,7 @@ Then corrently simultaneously update:
 
 The := is used to assign the new value as the current with each iteration. Care must be taken not to use the + instead as it will make them equal.
  \\(\alpha\\) is the kearning rate, which tells the algorithm how big a step to take between iterations.
- The \\(theta_0\\) and \\(theta_1\\) have to be updates simultaneously, so that new values are used during each iteration. 
+ The \\(\theta_0\\) and \\(\theta_1\\) have to be updates simultaneously, so that new values are used during each iteration. 
  
 
 
