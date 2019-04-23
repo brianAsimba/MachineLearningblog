@@ -112,8 +112,8 @@ Then corrently simultaneously update:
 
 \\[temp1 := =\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\] 
 
-\\[\theta_0 := temp0
-\\[\theta_1 := temp1
+\\[\theta_0 := temp0\\]
+\\[\theta_1 := temp1\\]
 
 
 
