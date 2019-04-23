@@ -104,8 +104,10 @@ Start with some random values: \\(\theta_0\\), \\(\theta_1\\)
 Keep changing \\(\theta_0\\), \\(\theta_1\\) to reduce J(\\(\theta_0\\), \\(\theta_1\\)) until a minimum is achieved. One issue with gradient descent is that you could end up at a local optima. However, for linear regression, this is not a problem as they are convex functions, which means that if you pick two point and draw a line between them , they do not cross the curve.
 
 Gradient descent is implemented using the following equations:
+
 \\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial x} J(\theta_0,\theta_1 )\\]
-}
+
+Then corrently simultaneously update:
 \\[temp0 :=\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\]
 
 \\[temp1 := =\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\] 
