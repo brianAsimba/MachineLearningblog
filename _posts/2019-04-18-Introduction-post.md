@@ -97,7 +97,14 @@ Below are graphs showing cimple cost functions and how to get to the minimum \\(
 
  For graphs with more that one feature, more than one \\(\theta\\) parameter, it is not easy to visualize the cost function. To visualize this, a contour plot if used to check for the convergence or just a plot of cost function versus \\(\theta\\) and then we check if the plot is reducing with each iteration.
  
- Gradient descent is the way the hypothesis is minimized mathematically until the minimum \\(\theta\\) parameters are computed. 
+Gradient descent is an optimization technique that is used to find the optimal solutions to a wide range of problems. It basically tweaks the parameters iteratively, until the function is minimized. This minimization algorithm is not only used in Linaer Regression, but also to other algorithms such as Logistic Regression, Neural Networks to name a few.
+
+How Gradient descent works:
+Start with some random values: \\(\theta_0\\), \\(\theta_1\\)
+Keep changing \\(\theta_0\\), \\(\theta_1\\) to reduce J(\\(\theta_0\\), \\(\theta_1\\)) until a minimum is achieved. One issue with gradient descent is that you could end up at a local optima. However, for linear regression, this is not a problem as they are convex functions, which means that if you pick two point and draw a line between them , they do not cross the curve.
+
+
+
 
 
 
