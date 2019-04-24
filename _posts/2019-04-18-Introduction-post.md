@@ -110,7 +110,7 @@ Gradient descent is implemented using the following equations:
 Then corrently simultaneously update:
 \\[temp0 :=\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\]
 
-\\[temp1 := =\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\] 
+\\[temp1 :=\theta_1-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\] 
 
 \\[\theta_0 := temp0\\]
 \\[\theta_1 := temp1\\]
@@ -129,7 +129,11 @@ A couple of pont regarding the learning rate, \\(\alpha\\):
 Putting it all together:
 Putting together the gradient descent and the cost function gives us the Linear regression algorithm. Gradien decent is used to minimize the cost function.
 
-We should dig deeper into what the partial derivative is. What is \\(\frac{\partial}{\partial \theta_0}J(\theta_0,\theta_1 \\)?
+We should dig deeper into what the partial derivative is. What is \\(\frac{\partial}{\partial \theta_j}J(\theta_0,\theta_1 \\)?
+
+\\[\frac{\partial}{\partial \theta_j}J(\theta_0,\theta_1) = \frac{\partial}{\partial \theta_j}  \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\]
+
+
 
 
 
