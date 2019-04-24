@@ -120,8 +120,14 @@ The := is used to assign the new value as the current with each iteration. Care 
  The \\(\theta_0\\) and \\(\theta_1\\) have to be updates simultaneously, so that new values are used during each iteration.
 The \\(frac{\partial}{\partial\\) is called the partial derivative. It is similar to the normal derivative, but it is used in Calculus when we have more than one parameter such as in this example where we have \\(\theta_0\\) and \\(\theta_1\\). All that it does is to find the slope of the curve at a particular point.
 
-The learning rate should npt be chosen to be too small as it will increase computation time, while a large learning rate will make the algorithm take big steps and might not be able to converge since it will be overshooting in each iteration and might diverge instead and never reach a global minimum.
- 
+A couple of pont regarding the learning rate, \\(\alpha\\):
+
+1. The learning rate should not be chosen to be too small as it will increase computation time, while a large learning rate will make the algorithm take big steps and might not be able to converge since it will be overshooting in each iteration and might diverge instead and never reach a global minimum. 
+
+2. There is no need to decrease the learning rate ith each iteration, because the clope reduceswith each iteration, therefore the learning rate is automatically reduced with each iteration.
+
+Putting it all together:
+Putting together the gradient descent and the cost function gives us the Linear regression algorithm. 
 
 
 
