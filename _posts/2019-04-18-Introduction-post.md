@@ -127,7 +127,9 @@ A couple of pont regarding the learning rate, \\(\alpha\\):
 2. There is no need to decrease the learning rate ith each iteration, because the clope reduceswith each iteration, therefore the learning rate is automatically reduced with each iteration.
 
 Putting it all together:
-Putting together the gradient descent and the cost function gives us the Linear regression algorithm. 
+Putting together the gradient descent and the cost function gives us the Linear regression algorithm. Gradien decent is used to minimize the cost function.
+
+WE should dig deeper into what the partial derivative is. What is 
 
 
 
