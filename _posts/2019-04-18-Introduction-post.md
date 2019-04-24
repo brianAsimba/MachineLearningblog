@@ -110,7 +110,7 @@ Gradient descent is implemented using the following equations:
 Then corrently simultaneously update:
 \\[temp0 :=\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\]
 
-\\[temp1 :=\theta_1-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\] 
+\\[temp1 :=\theta_1-\alpha\frac{\partial}{\partial \theta_1} J(\theta_0,\theta_1 )\\] 
 
 \\[\theta_0 := temp0\\]
 \\[\theta_1 := temp1\\]
@@ -132,6 +132,8 @@ Putting together the gradient descent and the cost function gives us the Linear 
 We should dig deeper into what the partial derivative is. What is \\(\frac{\partial}{\partial \theta_j}J(\theta_0,\theta_1 \\)?
 
 \\[\frac{\partial}{\partial \theta_j}J(\theta_0,\theta_1) = \frac{\partial}{\partial \theta_j}  \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\]
+
+\\[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\theta_1\\]
 
 
 
