@@ -133,7 +133,7 @@ We should dig deeper into what the partial derivative is. What is \\(\frac{\part
 
 \\[\frac{\partial}{\partial \theta_j}J(\theta_0,\theta_1) = \frac{\partial}{\partial \theta_j}  \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\]
 
-\\[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\theta_1\\]
+\\[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\theta_1\\] = 
 
 
 
