@@ -105,7 +105,7 @@ Keep changing \\(\theta_0\\), \\(\theta_1\\) to reduce J(\\(\theta_0\\), \\(\the
 
 Gradient descent is implemented using the following equations:
 
-\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial x} J(\theta_0,\theta_1 )\\]
+\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j J(\theta_0,\theta_1 )\\]
 
 Then corrently simultaneously update:
 \\[temp0 :=\theta_0-\alpha\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1 )\\]
