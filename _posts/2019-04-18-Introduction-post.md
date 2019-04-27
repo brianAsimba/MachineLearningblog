@@ -138,8 +138,21 @@ for \\(\theta_0\\) \[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\th
 fot \\(\theta_0\\) \[ j = 1 : \frac{\partial}{\partial \theta_1} J (\theta_0,\theta_1) =\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i).X^i\\] 
 
 
+The rderivatives for the functions are got using Chain rule from calculus.
 
+The graident descent that we will be using in the subsequent exercises are batch gradient decent. This means that in each step ofgradient descent all the training examples are computer for both forward propagation and back propagation. THerefor, with each iteration, all them, training examples are computed in this equation \\(\frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\)
 
+Worth mentioning that there are other forms of gradient descent that do not run through the entire training set. OTher tyoes og gradient descent are stochasatic gradient descent and mini-batch gradient descent, which we will discuss later in greater detail.
+
+Some of the references that will assist with people who are new to Machine Learning are the following:
+Coursera course by Andrew Ng'- https://www.coursera.org/learn/machine-learning
+Tyler Rennelle blog- http://ocdevel.com/mlg
+
+Stay tuned for the next posts for examples of linear algebra results and explanations using Octave/Matlab software.
+
+References:
+Hands on Machine Learning with Scikit-Learn & TensorFlow by Aurelion Geron.
+COursera course- Machine Learning by Andrew Ng'.
 
 
 
