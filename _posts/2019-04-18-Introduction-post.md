@@ -71,6 +71,8 @@ The main objective in Machine Learning is finding a relationship that matches th
 We represent the hypotheses as:
 \\[h_\theta(x)={\theta_0} + {\theta_1 x}\\] 
 
+<img src="https://brianasimba.github.io/MLblog//images/ML_branches.png" style="display: block; margin: auto;" />
+
 Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest algorithm to start with. Later on, we will move to algorithm equations with more than one feature as well as non-linear fuctions. In this equation, \\(\theta\\) are called parameters and x is the feature.
 
 # **Cost function**
@@ -78,7 +80,7 @@ From the hypothesis function, we know that different \\(\theta\\) parameters, wi
 
 The image below shows equations y = 2, y = 2x and y = 2x + 1.
 
-<img src="https://brianasimba.github.io/MachineLearningblog/images/Theta.png" style="display: block; margin: auto;" />
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Hypothesis functions.png" style="display: block; margin: auto;" />
 
 The objective is to find the best fitting plot given data as shown below:
 
@@ -93,6 +95,8 @@ The cost function is defined as:
 Where m is the number of training example and i is the number of training example on the list. From the equation, the objective is to minimize the difference between the hypothesis and the correct value, y. This mathematical equation minimizes the error in the algorithm. The square in the equation is to simplify the differentiation of backpropagation. This cost function is called the square error function and it is the most commonly used cost function for regression problems.
 
 Below are graphs showing simple cost functions and how the optimal \\(\theta\\) values that minimize the hypothesis functions are achieved. These graphs have only one theta values, which means one feature. A sanity check for convergence of the algorithm is plotting cost function J((\\theta\\)) versus \\(\theta\\). If the algorithm is correct, the error should be reduced with an increase in gradient descent steps. Later on, we will discuss factors such as variance and bias which assist in avoid underfitting and overfitting problems.
+
+<img src="https://brianasimba.github.io/MLblog//images/cost function versus features.png" style="display: block; margin: auto;" />
 
 For graphs with more that one feature, more than one \\(\theta\\) parameter, it is not easy to visualize the cost function. To visualize this, a contour plot if used to check for the convergence or just a plot of cost function versus \\(\theta\\) and then we check if the plot is reducing with each iteration.
  
