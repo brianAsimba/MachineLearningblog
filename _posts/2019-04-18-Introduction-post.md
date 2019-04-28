@@ -11,9 +11,9 @@ comments: true
 published: true
 ---
 
-## What is Machine Learning
+## What is Machine Learning?
 
-Machine learning is the science and art of programming computers to learn from data. Machine Learning has been a hot topic lately. This is because of the applications currently utilizing Machine Learning. Every day we use Machine Learning in some shape pf form without knowing. Some of the examples are Amazon recommender systems, google searching algorithm, spam detection in emails, credit card fraudulent detection, mailing addresses algorithm reader, customer segmentation and lastly self-driving to name a few. According to Tom Mitchell, a computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by, improves with experience E.
+Machine learning is the science and art of programming computers to learn from data. Machine Learning has been a hot topic. This is because of the applications utilizing Machine Learning. Every day we use Machine Learning in some shape or form without knowing. Examples of use cases are Amazon recommender systems, google searching algorithm, spam detection in emails, credit card fraudulent detection, mailing addresses algorithm reader, customer segmentation and self-driving to name a few. According to Tom Mitchell, a computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by, improves with experience E.
 
 ## Types of Machine Learning
 There are various types of Machine Learning. From the diagram below, you can see the main branches of Machine Learning:
@@ -22,7 +22,7 @@ There are various types of Machine Learning. From the diagram below, you can see
 <img src="https://brianasimba.github.io/MLblog//images/ML_branches.png" style="display: block; margin: auto;" />
   
   
-Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is further divided mainly into supervised, unsupervised, semi-supervised and reinforcement learning.
+Machine Learning, Robotics and Control theory is a branch of Artificial Intelligence. Machine Learning is divided into supervised, unsupervised, semi-supervised and reinforcement learning.
 
 ## Supervised Learning
 Supervised learning is where the algorithm is trained using the correct target values. In this algorithm, the training is done on the data and error is calculated from the difference between the predicted values and the correct values. Supervised learning can also be further divided into regression and classification algorithms. Regression is where the supervised algorithm is predicting a continuous problem, such as price of a house in house prediction. Classification is where the algorithm tries to predict discrete values for example, 0 or 1, malignant or benign tumor, spam or non-spam emails.
@@ -152,39 +152,7 @@ Stay tuned for the next posts for examples of linear algebra results and explana
 
 References:
 Hands on Machine Learning with Scikit-Learn & TensorFlow by Aurelion Geron.
-COursera course- Machine Learning by Andrew Ng'.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Coursera course- Machine Learning by Andrew Ng'.
 
 
 
