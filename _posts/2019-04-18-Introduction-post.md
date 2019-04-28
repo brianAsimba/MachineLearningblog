@@ -92,15 +92,17 @@ The cost function is defined as:
 
 Where m is the number of training example and i is the number of training example on the list. From the equation, the objective is to minimize the difference between the hypothesis and the correct value, y. This mathematical equation minimizes the error in the algorithm. The square in the equation is to simplify the differentiation of backpropagation. This cost function is called the square error function and it is the most commonly used cost function for regression problems.
 
-Below are graphs showing simple cost functions and how the optimal \\(\theta\\) values that minimize the hypothesis functions are achieved. These graphs have only one theta values, which means one feature. A sanity check for convergence of the algorithm is plotting cost function J((\\theta\\)) versus \\(\theta\\). If the algorithm is correct, the error should be reduced with an increase in gradient descent steps. Later on we will discuss factors such as variance and bias which assist in avoid underfitting and overfitting problems.
+Below are graphs showing simple cost functions and how the optimal \\(\theta\\) values that minimize the hypothesis functions are achieved. These graphs have only one theta values, which means one feature. A sanity check for convergence of the algorithm is plotting cost function J((\\theta\\)) versus \\(\theta\\). If the algorithm is correct, the error should be reduced with an increase in gradient descent steps. Later on, we will discuss factors such as variance and bias which assist in avoid underfitting and overfitting problems.
 
 For graphs with more that one feature, more than one \\(\theta\\) parameter, it is not easy to visualize the cost function. To visualize this, a contour plot if used to check for the convergence or just a plot of cost function versus \\(\theta\\) and then we check if the plot is reducing with each iteration.
  
-Gradient descent is an optimization technique that is used to find the optimal solutions to a wide range of problems. It basically tweaks the parameters iteratively, until the function is minimized. This minimization algorithm is not only used in Linaer Regression, but also to other algorithms such as Logistic Regression, Neural Networks to name a few.
+Gradient descent is an optimization technique that is used to find optimal solutions to a wide range of problems. It basically tweaks the parameters iteratively, until the function is minimized. This minimization algorithm is not only used in Linear Regression, but also to other algorithms such as Logistic Regression, Neural Networks to name a few.
 
 How Gradient descent works:
 Start with some random values: \\(\theta_0\\), \\(\theta_1\\)
-Keep changing \\(\theta_0\\), \\(\theta_1\\) to reduce J(\\(\theta_0\\), \\(\theta_1\\)) until a minimum is achieved. One issue with gradient descent is that you could end up at a local optima. However, for linear regression, this is not a problem as they are convex functions, which means that if you pick two point and draw a line between them , they do not cross the curve.
+Keep changing \\(\theta_0\\), \\(\theta_1\\) to reduce J(\\(\theta_0\\), \\(\theta_1\\)) until a minimum is achieved. 
+
+One issue with gradient descent is that you could end up at a local optimum. However, for linear regression, this is not a problem as they are convex functions, which means that if you pick two points and draw a line between them, the line does not cross the curve.
 
 Gradient descent is implemented using the following equations:
 
@@ -114,7 +116,7 @@ Then corrently simultaneously update:
 \\[\theta_0 := temp0\\]
 \\[\theta_1 := temp1\\]
 
-The := is used to assign the new value as the current with each iteration. Care must be taken not to use the + instead as it will make them equal.
+:= is used to assign the new value as the current with each iteration. Care must be taken not to use the + instead as it will make them equal.
  \\(\alpha\\) is the kearning rate, which tells the algorithm how big a step to take between iterations.
  The \\(\theta_0\\) and \\(\theta_1\\) have to be updates simultaneously, so that new values are used during each iteration.
 The \\(\frac{\partial}{\partial \theta_0}\\) is called the partial derivative. It is similar to the normal derivative, but it is used in Calculus when we have more than one parameter such as in this example where we have \\(\theta_0\\) and \\(\theta_1\\). All that it does is to find the slope of the curve at a particular point.
