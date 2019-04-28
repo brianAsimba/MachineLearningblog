@@ -80,7 +80,7 @@ From the hypothesis function, we know that different \\(\theta\\) parameters, wi
 
 The image below shows equations y = 2, y = 2x and y = 2x + 1.
 
-<img src="https://brianasimba.github.io/MachineLearningblog/images/Hypothesis functions.png" style="display: block; margin: auto;" />
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Hypothesis functions .png" style="display: block; margin: auto;" />
 
 The objective is to find the best fitting plot given data as shown below:
 
@@ -96,7 +96,7 @@ Where m is the number of training example and i is the number of training exampl
 
 Below are graphs showing simple cost functions and how the optimal \\(\theta\\) values that minimize the hypothesis functions are achieved. These graphs have only one theta values, which means one feature. A sanity check for convergence of the algorithm is plotting cost function J((\\theta\\)) versus \\(\theta\\). If the algorithm is correct, the error should be reduced with an increase in gradient descent steps. Later on, we will discuss factors such as variance and bias which assist in avoid underfitting and overfitting problems.
 
-<img src="https://brianasimba.github.io/MLblog//images/cost function versus features.png" style="display: block; margin: auto;" />
+<img src="https://brianasimba.github.io/MLblog//images/Cost function versus features.png" style="display: block; margin: auto;" />
 
 For graphs with more that one feature, more than one \\(\theta\\) parameter, it is not easy to visualize the cost function. To visualize this, a contour plot if used to check for the convergence or just a plot of cost function versus \\(\theta\\) and then we check if the plot is reducing with each iteration.
  
@@ -154,6 +154,7 @@ Tyler Rennelle blog- http://ocdevel.com/mlg
 Stay tuned for the next posts for where we will go through an example of Linear Regression coding and explanations using Octave/Matlab software.
 
 References:
+
 Hands on Machine Learning with Scikit-Learn & TensorFlow by Aurelion Geron.
 Coursera course- Machine Learning by Andrew Ng'.
 
