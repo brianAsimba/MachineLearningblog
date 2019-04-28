@@ -121,11 +121,11 @@ Then corrently simultaneously update:
 The \\(\theta_0\\) and \\(\theta_1\\) have to be updates simultaneously, so that new values are used during each iteration.
 The \\(\frac{\partial}{\partial \theta_0}\\) is called the partial derivative. It is similar to the normal derivative, but it is used in Calculus when we have more than one parameter such as in this example where we have \\(\theta_0\\) and \\(\theta_1\\). All that it does is to find the slope of the curve at a particular point.
 
-A couple of pont regarding the learning rate, \\(\alpha\\):
+A couple of points regarding the learning rate, \\(\alpha\\):
 
-1. The learning rate should not be chosen to be too small as it will increase computation time, while a large learning rate will make the algorithm take big steps and might not be able to converge since it will be overshooting in each iteration and might diverge instead and never reach a global minimum. 
+1. The learning rate should not be chosen to be too small as it will increase computation time, while a large learning rate will make the algorithm take big steps and might not be able to converge since it will be overshooting in each iteration and might diverge instead and never reach a global minimum. We will discuss more on this later on. 
 
-2. There is no need to decrease the learning rate ith each iteration, because the clope reduceswith each iteration, therefore the learning rate is automatically reduced with each iteration.
+2. There is no need to decrease the learning rate with each iteration, because the slope reduces with each iteration, therefore the learning rate is automatically reduced with each iteration.
 
 Putting it all together:
 Putting together the gradient descent and the cost function gives us the Linear regression algorithm. Gradien decent is used to minimize the cost function.
@@ -139,17 +139,15 @@ for \\(\theta_0\\) \[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\th
 fot \\(\theta_0\\) \[ j = 1 : \frac{\partial}{\partial \theta_1} J (\theta_0,\theta_1) =\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i).X^i\\] 
 
 
-The rderivatives for the functions are got using Chain rule from calculus.
+The derivatives for the functions are got using Chain rule from calculus. The gradient descent that we will be using in the subsequent exercises is batch gradient decent. This means that in each step of gradient descent, both forward propagation and backpropagation are computer for all training examples. Therefore, with each iteration, all the training examples are computed using this equation \\(\frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\)
 
-The graident descent that we will be using in the subsequent exercises are batch gradient decent. This means that in each step ofgradient descent all the training examples are computer for both forward propagation and back propagation. THerefor, with each iteration, all them, training examples are computed in this equation \\(\frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\)
+Worth mentioning are other forms of gradient descent that do not run through the entire training set at once. Other types of  gradient descent are stochasatic gradient descent and mini-batch gradient descent, which we will discuss later in greater detail.
 
-Worth mentioning that there are other forms of gradient descent that do not run through the entire training set. OTher tyoes og gradient descent are stochasatic gradient descent and mini-batch gradient descent, which we will discuss later in greater detail.
-
-Some of the references that will assist with people who are new to Machine Learning are the following:
+Some of the references that will assist anyone who is new to Machine Learning get to speed are the following:
 Coursera course by Andrew Ng'- https://www.coursera.org/learn/machine-learning
 Tyler Rennelle blog- http://ocdevel.com/mlg
 
-Stay tuned for the next posts for examples of linear algebra results and explanations using Octave/Matlab software.
+Stay tuned for the next posts for where we will go through an example of Linear Regression coding and explanations using Octave/Matlab software.
 
 References:
 Hands on Machine Learning with Scikit-Learn & TensorFlow by Aurelion Geron.
