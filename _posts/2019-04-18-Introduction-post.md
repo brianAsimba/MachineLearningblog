@@ -66,12 +66,12 @@ Size in Ft. squared | Price in dollars ('000)
 500 | 320
 5000 | 1000
 
-The main objective in Machine Learning is finding a relationship that matches the features in the first column to the output, then use this relation ship to pridict other outcomes given different features. Given the sizes of the houses and proces of the houses, a Supervised Learning algorithm would come up with a hypotheses that fits the featyres to the output in the most accurate way.
+The main objective in Machine Learning is finding a relationship that matches the features in the first column to the output, then use this relationship to predict other outcomes given different features. Given the sizes of the houses and prices of the houses, a Supervised Learning algorithm would come up with a hypothesis that fit the features to the output in the most accurate way.
 
 We represent the hypotheses as:
 \\[h_\theta(x)={\theta_0} + {\theta_1 x}\\] 
 
-Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest type pf algorithm to start with. Later on we will move to algorith equations with more that none feature as well non-linear fuctions. In this equation \\(\theta\\) are called paramteters and x is the feature.
+Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest algorithm to start with. Later on, we will move to algorithm equations with more than one feature as well as non-linear fuctions. In this equation \\(\theta\\) are called paramteters and x is the feature.
 
 # **Cost function**
 From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/ hypothesis functions. By using different theta parameters, we are able to fit the curves differenty to different data.
