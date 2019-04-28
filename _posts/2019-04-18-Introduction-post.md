@@ -134,9 +134,9 @@ We should dig deeper into what the partial derivative is. What is \\(\frac{\part
 
 \\[\frac{\partial}{\partial \theta_j}J(\theta_0,\theta_1) = \frac{\partial}{\partial \theta_j}  \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\]
 
-for \\(\theta_0\\) \[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\theta_1) =\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)\\] 
+for \\(\theta_0\\) \\[ j = 0 : \frac{\partial}{\partial \theta_0} J (\theta_0,\theta_1) =\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)\\] 
 
-fot \\(\theta_0\\) \[ j = 1 : \frac{\partial}{\partial \theta_1} J (\theta_0,\theta_1) =\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i).X^i\\] 
+fot \\(\theta_0\\) \\[ j = 1 : \frac{\partial}{\partial \theta_1} J (\theta_0,\theta_1) =\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i).X^i\\] 
 
 
 The derivatives for the functions are got using Chain rule from calculus. The gradient descent that we will be using in the subsequent exercises is batch gradient decent. This means that in each step of gradient descent, both forward propagation and backpropagation are computer for all training examples. Therefore, with each iteration, all the training examples are computed using this equation \\(\frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\)
