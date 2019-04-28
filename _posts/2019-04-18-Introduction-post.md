@@ -71,18 +71,14 @@ The main objective in Machine Learning is finding a relationship that matches th
 We represent the hypotheses as:
 \\[h_\theta(x)={\theta_0} + {\theta_1 x}\\] 
 
-<img src="https://brianasimba.github.io/MLblog//images/ML_branches.png" style="display: block; margin: auto;" />
-
 Most of you would remember this equation is similar to y = mx + C, which is the equation of a straight line.  This is the simplest algorithm to start with. Later on, we will move to algorithm equations with more than one feature as well as non-linear fuctions. In this equation, \\(\theta\\) are called parameters and x is the feature.
 
 # **Cost function**
-From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/ hypothesis functions. By using different \\(\theta\\) parameters, we are able to fit the curves differently to different data.
+From the hypothesis function, we know that different \\(\theta\\) parameters, will yield different linear curves/hypothesis functions. By using different \\(\theta\\) parameters, we are able to fit the curves differently to different data.
 
-The image below shows equations y = 2, y = 2x and y = 2x + 1.
+The image below shows equations y = x, y = 2x and y = 1/2x. The objective is to find the best fitting plot given data as shown below:
 
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Hypothesis functions .png" style="display: block; margin: auto;" />
-
-The objective is to find the best fitting plot given data as shown below:
 
 By using different \\(\theta\\) parameters, we are able to come up with the line the best fits the data. This isachieved by minimizing the difference between the correct values and hypothesis predictions.
 
