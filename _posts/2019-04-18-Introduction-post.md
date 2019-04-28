@@ -27,7 +27,7 @@ Machine Learning, Robotics and Control theory is a branch of Artificial Intellig
 ## Supervised Learning
 Supervised learning is where the algorithm is trained using the correct target values. In this algorithm, we do the training on the data and we calculate the difference between the predicted values and the correct values as the error. Regression and classification algorithms are the 2 main branches of supervised learning. Regression is where the supervised algorithm is predicting a continuous problem, such as the prediction of housing prices. Classification is where the algorithm tries to predict discrete values for example, 0 or 1, malignant or benign tumor, spam or non-spam emails.
 
-In Machine Learning data attributes are called features. In housing prices prediction, we might use features such as house size, the number of bedrooms, the number of bathrooms, proximity to downtown, etc. Regression algorithms can perform classifications too. One of the most common used algorithms for classification is Logistic Regression. It gives the probabilities of belonging to a class. Some examples of supervised learning algorithms are:
+In Machine Learning data attributes are called features. In housing prices prediction, we might use features such as house size, the number of bedrooms, the number of bathrooms, proximity to downtown, etc. Regression algorithms can perform classifications too. One of the most commonly used algorithms for classification is Logistic Regression. It gives the probabilities of belonging to a class. Some examples of supervised learning algorithms are:
 Linear Regression.
 Logistic regression
 Neural Networks.
@@ -40,23 +40,23 @@ Unsupervised learning is an algorithm where we make predictions using unlabeled 
 Clustering- K Means, Hierarchical Cluster Analysis, Expectation Maximization.
 Principal Component Analysis (PCA).
 An example of unsupervised learning use case is Google clustering related news from different sources under one URL link, market segmentation, social network analysis and astronomical data analysis.
-One important task in dimensionality reduction, is the reduction of the number of features in our dataset while also keeping the most important features. We can ensure we keep important features by combining parameters, for example, the square feet of a house is more important than the width of the house. Some factors combined might be more important than one factor, such as age and some illnesses.
+One important task in dimensionality reduction is the reduction of the number of features in our dataset while also keeping the most important features. We can ensure we keep important features by combining parameters, for example, the square feet of a house is more important than the width of the house. Some factors combined might be more important than one factor, such as age and some illnesses.
 
 ## Semi-supervised learning
-This is the algorithm where some data is labelled while some data is unlabeled. A great example is when we upload photos on Facebook with the same person the algorithm recognizes them. After applying a label to the person, the algorithm will name all the pictures with the same person. One example of semi-supervised learning is the deep belief networks, which is composed of unsupervised Restricted Boltzmann machines stacked on top of each other.
+This is the algorithm where some data is labeled while some data is unlabeled. A great example is when we upload photos on Facebook with the same person the algorithm recognizes them. After applying a label to the person, the algorithm will name all the pictures with the same person. One example of semi-supervised learning is the deep belief networks, which is composed of unsupervised Restricted Boltzmann machines stacked on top of each other.
 
 ## Reinforcement Learning
-Reinforcement learning is a much deeper type of algorithm. In this algorithm, the learning system, called an agent, observes the environment, select and perform actions, and get rewards or penalties in the form of negative rewards. The best strategy, called policy defines what action the agent needs to take overtime to maximize rewards. We can use reinforcement learning in the stock market where the reward for the algorithm is to maximize the returns, and the system figures out what the best actions are to maximize the profits while it is gets negative rewards for losses.
+Reinforcement learning is a much deeper type of algorithm. In this algorithm, the learning system, called an agent, observes the environment, select and perform actions, and get rewards or penalties in the form of negative rewards. The best strategy, called policy defines what action the agent needs to take overtime to maximize rewards. We can use reinforcement learning in the stock market where the algorithm's reward is to maximize the returns, and the system figures out what the best actions are to maximize the profits while it is getting negative rewards for losses.
 
-In the programming exercises, that I will be do, I will use Octave software. This is the same as Matlab but it is a free open source software. This is because Octave/ Matlab makes it easy to prototype than using Java/ C++ which takes a lot of code to do. It is therefore advisable to know a prototyping language then after there is proof it works, we can move to the more complicated programming languages such as C++. After proving the code works in Octave, I will move to Python to write my algorithms.
+In the programming exercises, we will use Octave software. This is the same as Matlab but it is a free open source software. This is because Octave/ Matlab makes it easy to prototype than using Java/ C++ which takes a lot of code to do. It is therefore advisable to know a prototyping language then after there is proof it works, we can move to the more complicated programming languages such as C++. After proving the code works in Octave, I will move to Python to write my algorithms.
 Linear Regression
 This is the simplest type of Supervised learning where a model is used to predict a continuous value. The well known example is the Portland housing price prediction. For the housing price prediction we use a housing price, we will use the housing price dataset.
 
 # **Linear Regression**
 Linear regression is a supervised learning algorithm where we make predictions using a model that fits linearly on the data. Regression comes from the fact that the prediction output values are continuous. Some of the most common notations used in Machine Learning are:
-m- Number of training examples.
-x- Input variables
-y-Output variables
+m - Number of training examples.
+x - Input variables
+y - Output variables
 (x,y)- one training example, showing the input and output.
 The data that is used to train the algorithm is called the training set.
 
