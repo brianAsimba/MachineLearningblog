@@ -2,7 +2,7 @@
 title:              Brian Omondi Asimba
 bio:                |+
                     This blog is for anyone who is interested in Machine Learning,but does not know where to begin. We will go through the math, coding of the various Machine Learning methods, from Linear Regression to Neural Networks. Finally, we will go through real life use cases of Machine Learning.
-description:        "Aeronautical Engineer | Simulation Engineer | Machine Learning enthuisiast"
+description:        "Aeronautical Engineer | Simulation Engineer | Machine Learning enthuisiast | Stock market investor"
 reading_time:       true
 words_per_minute:   200
 logo:               'Photo of me.jpg'
@@ -27,7 +27,7 @@ sass:
   style:            compressed
 
 # Comments
-#disqus_shortname:   taylantatli
+disqus_shortname:   brianasimba
 
 # Social
 # if you don't have any of social below, comment the line.
