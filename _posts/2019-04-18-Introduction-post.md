@@ -81,8 +81,11 @@ From the hypothesis function, we know that different \\(\theta\\) parameters, wi
 
 The image below shows equations y = x, y = 2x and y = 1/2x. The objective is to find the best fitting plot given data as shown below:
 
+<figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Hypothesis functions .png" style="display: block; margin: auto;" />
-
+<figcaption>Hypothesis functions comparison</figcaption> 
+</figure>
+ 
 By using different \\(\theta\\) parameters, we are able to come up with the line the best fits the data. This isachieved by minimizing the difference between the correct values and hypothesis predictions.
 
 
@@ -95,7 +98,12 @@ Where m is the number of training example and i is the number of training exampl
 
 Below are graphs showing simple cost functions and how the optimal \\(\theta\\) values that minimize the hypothesis functions are achieved. These graphs have only one theta values, which means one feature. A sanity check for convergence of the algorithm is plotting cost function J((\\theta\\)) versus \\(\theta\\). If the algorithm is correct, the error should be reduced with an increase in gradient descent steps. Later on, we will discuss factors such as variance and bias which assist in avoid underfitting and overfitting problems.
 
+<figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Cost_function.png" style="display: block; margin: auto;" />
+<figcaption>Gradient Descent using Cost Function</figcaption> 
+</figure>
+
+
 
 For graphs with more that one feature, more than one \\(\theta\\) parameter, it is not easy to visualize the cost function. To visualize this, a contour plot if used to check for the convergence or just a plot of cost function versus \\(\theta\\) and then we check if the plot is reducing with each iteration.
  
