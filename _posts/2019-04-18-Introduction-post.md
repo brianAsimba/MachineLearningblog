@@ -20,7 +20,7 @@ There are various types of Machine Learning. From the diagram below, you can see
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/ML_branches.png" style="display: block; margin: auto;"/>
-<figcaption>Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption> 
+<figcaption>Branches of Machine Learning</figcaption> 
 </figure>
  
 
