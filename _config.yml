@@ -31,10 +31,10 @@ disqus_shortname:   https-brianasimba-github-io-machinelearningblog
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
   #analytics:
-  #verify:
+  verify:           FWHB1SU1zC8HaQVKlgJpD5seZ0y484IFN73Z9T1YW-M
   #ad-client:
   #ad-slot:
 #bing-verify:
