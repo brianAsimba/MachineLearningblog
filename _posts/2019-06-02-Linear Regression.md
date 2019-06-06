@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Learning basics
-date: 2019-04-18
+date: 2019-06-06
 excerpt: Supervised Machine Learning
 tags:
   - Machine Learning
