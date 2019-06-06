@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine Learning basics
+title: Matrices, Multivariate Linear Regression
 date: 2019-06-06
 excerpt: Supervised Machine Learning
 tags:
