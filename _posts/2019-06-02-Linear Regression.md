@@ -47,8 +47,11 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
 ## Vector
 A vector in a matrix with 1 column. An example of a vector is:
 
-
-
+\left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
 
 
 
