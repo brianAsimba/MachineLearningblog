@@ -23,10 +23,11 @@ A = \begin{bmatrix}
 \end{bmatrix}
 
 B= \begin{bmatrix}
- 2&  3&  2& \\ 
+ 2&  3&  5& \\ 
  1&  9&  6& 
 \end{bmatrix}
-Matrices are names by number of rows x number of columns. The first matrix is a 3X2 while the second one is 2X3 matrix. We can now refer to the elements of the matrix. The elements are named using i and j, where i is the row and j is the column of the element in the matrix. In matrix A:
+Matrices are names by number of rows x number of columns. The first matrix is a 3X2 while the second one is 2X3 matrix. We can now refer to the elements of the matrix. The elements are named using i and j, where i is the row and j is the column of the element in the matrix. In matrix A and B:
 A_{{1},{1}} = 2
 A_{{3},{1}} = 5
-
+B_{{1},{3} = 5
+B_{{2},{2} = 9
