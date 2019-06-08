@@ -45,8 +45,14 @@ $$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
 \end{equation}
 
 
-
-
+\[
+\left[
+   \begin{array}{cc}
+      a & b \\
+      c & d 
+   \end{array}
+\right]
+\]
 
 
 
