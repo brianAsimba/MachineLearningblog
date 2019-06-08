@@ -32,3 +32,6 @@ Matrices are names by number of rows x number of columns. The first matrix is a 
 A_{1,1} = 2
 A_{3,2} = 10
 B_{2,3} = 6
+
+
+\\[h_\theta(x)={\theta_0} + {\theta_1 x}\\] 
