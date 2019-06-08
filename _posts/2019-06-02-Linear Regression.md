@@ -18,43 +18,24 @@ Matrices and vectors are arrays that are used to express any kinds of data proce
 
 $$
  \begin{bmatrix}
- 2&  3&\\\
- 10&  8&\\ 
+ 2&  3& \\
+ 10& 8& \\ 
  5&  10&   
  \end{bmatrix}
 $$
 
+$$
 \begin{bmatrix}
-2&  3&  5&\\ 
+2&  3&  5& \\ 
 1&  9&  6& 
 \end{bmatrix}
+$$
 
 Matrices are named by number of rows x number of columns. The first matrix is a 3X2 while the second one is 2X3 matrix. We can now refer to the elements of the matrix. The elements are named using i and j, where i is the row and j is the column of the element in the matrix. In matrix A and B:
 
 \\[A_{3,2} = 10\\]
 \\[A_{1,2} = 3\\]
 \\[B_{2,2} = 9\\]
-
-
-$$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
-
-\begin{equation}
-   \begin{bmatrix} 
-   a_{11} & a_{12} & a_{13}  \\
-   a_{21} & a_{22} & a_{23}  \\
-   a_{31} & a_{32} & a_{33}  \\
-   \end{bmatrix} 
-\end{equation}
-
-
-\[
-\left[
-   \begin{array}{cc}
-      a & b \\
-      c & d 
-   \end{array}
-\right]
-\]
 
 
 
