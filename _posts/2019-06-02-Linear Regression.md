@@ -34,4 +34,4 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
 \\[B_{2,2} = 9\\]
 
 
- $\begin{matrix} a & b \\ c & d \end{matrix}$
+$$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
