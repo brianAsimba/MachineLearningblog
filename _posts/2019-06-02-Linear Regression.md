@@ -18,10 +18,10 @@ Matrices and vectors are arrays that are used to express any kinds of data proce
 
 $$
 \begin{bmatrix}
- 2&  3&\\
- 10& 8&\\ 
+ 2&  3& \\
+ 10& 8& \\ 
  5&  10&   
-\end{bmatrix}
+ \end{bmatrix}
 $$
 
 $$
