@@ -31,7 +31,7 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
 \\[A_{1,2} = 3\\]
 \\[B_{2,2} = 9\\]
 
-$$
+
 \begin{equation}
    \begin{matrix} 
    a_{11} & a_{12} & a_{13}  \\
@@ -40,7 +40,12 @@ $$
    \end{matrix} 
 \end{equation}
 $$
-
+\left( \begin{matrix}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{matrix} \right)
+$$
 
 ## Vector
 A vector in a matrix with 1 column. An example of a vector is:
