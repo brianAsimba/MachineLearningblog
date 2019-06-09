@@ -70,3 +70,17 @@ $$
   \end{bmatrix}
 $$
 \\]
+
+
+
+$$
+M = \left( \begin{array}{ccc}
+a & C & c \\
+b & a & a \\
+d & a & v \\
+\end(array} \right)
+$$
+
+
+
+
