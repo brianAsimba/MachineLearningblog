@@ -41,45 +41,43 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
    \end{matrix} 
 \end{equation}
 
-$$
+
 \begin{array}{ccc}
       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
       \vdots & \ddots & \vdots \\
       \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
     \end{array} \right)
-$$
+
   
 
 ## Vector
 A vector in a matrix with 1 column. An example of a vector is:
 
-$$
+
 \left( \begin{array}{c}
       y_1 \\
       \vdots \\
       y_n
     \end{array} \right)
-$$
+
 
 
 \\[
-$$
 \begin{bmatrix}
    2 & 8 & 1 \\
    3 & 7 & x \\
    6 & 4 & 5
   \end{bmatrix}
-$$
 \\]
 
 
 
-$$
+
 M = \left( \begin{array}{ccc}
 a & C & c \\
 b & a & a \\
 d & a & v \\
 \end(array} \right)
-$$
 
-This is shown as $$\begin{matrix} 1 & x & x^2 \\1 & y & y^2 \\1 & z & z^2 \\\end{matrix}$$
+
+This is shown as $$\begin{matrix} 1 & x & x^2 \\1 & y & y^2 \\1 & z & z^2 \\ \end{matrix}$$
