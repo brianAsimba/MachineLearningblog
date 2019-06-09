@@ -56,10 +56,10 @@ $$
     \end{array} \right)
 $$
 
-$$
-    \begin{matrix}
-    1 & x & x^2 \\
-    1 & y & y^2 \\
-    1 & z & z^2 \\
-    \end{matrix}
-$$
+\\[
+\begin{bmatrix}
+2 & 8 & 1 \\
+3 & 7 & x \\
+6 & 4 & 5
+\end{bmatrix}
+\\]
