@@ -41,8 +41,8 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
 \end{equation}
 $$
 \left( \begin{matrix}
-      y_1 \\
-      \vdots \\
+      y_1& 3& 3& \\
+      \vdots 3& 5& \\
       y_n
     \end{matrix} \right)
 $$
