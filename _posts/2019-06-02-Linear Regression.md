@@ -40,11 +40,11 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
    \end{matrix} 
 \end{equation}
 $$
-\left( \begin{matrix}{ccc}       
+\left( \begin{array}{ccc}       
        \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
        \vdots & \ddots & \vdots \\
        \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)    
-     \end{matrix} \right)
+     \end{array} \right)
 $$
 
 ## Vector
