@@ -41,9 +41,9 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
 \end{equation}
 $$
 \left( \begin{matrix}
-      y_1& 1\\
-      \vdots &3\\
-      y_n
+      y_1 & 1  \\
+      \vdots & 3  \\
+      y_n & 3
     \end{matrix} \right)
 $$
 
