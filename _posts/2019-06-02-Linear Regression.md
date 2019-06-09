@@ -39,13 +39,15 @@ Matrices are named by number of rows x number of columns. The first matrix is a 
    a_{31} & a_{32} & a_{33}  \\
    \end{matrix} 
 \end{equation}
+
 $$
-\left( \begin{array}{ccc}       
-       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-       \vdots & \ddots & \vdots \\
-       \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)    
-     \end{array} \right)
+\begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
 $$
+  
 
 ## Vector
 A vector in a matrix with 1 column. An example of a vector is:
