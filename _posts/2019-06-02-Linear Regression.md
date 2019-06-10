@@ -97,7 +97,7 @@ z & 3
 $$
 
 =\begin{pmatrix}
-    \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\
-    \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\
+    \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\\\
+    \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\\
     \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
   \end{pmatrix}
