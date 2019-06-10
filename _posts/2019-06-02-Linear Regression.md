@@ -88,8 +88,13 @@ z' &=& - &x \cos\phi &+& z \sin\phi \\\\
 \end{eqnarray}$$
 
 
-
-
+$$
+\begin{array}{c}
+y_1 \\\
+y_2 \mathtt{t}_i \\\
+z_{3,4}
+\end{array}
+$$
 
 
 
