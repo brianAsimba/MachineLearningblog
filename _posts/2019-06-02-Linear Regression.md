@@ -89,7 +89,7 @@ z' &=& - &x \cos\phi &+& z \sin\phi \\\\
 
 
 $$
-\begin{array}{cc}
+\begin{array}{ccc}
 y & 3 \\\
 y & 2 \\\
 z & 3
