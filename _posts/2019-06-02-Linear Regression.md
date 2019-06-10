@@ -19,8 +19,8 @@ Matrices and vectors are arrays that are used to express any kinds of data proce
 
 $$
 \left( \begin{array}{cc}
-      y_1 & 2 \\
-      \vdots & 6 \\
+      y_1 & 2 \\\\
+      \vdots & 6 \\\\
       y_n & 5
     \end{array} \right)
 $$
@@ -59,7 +59,7 @@ d & a & v \\
 \end(array} \right)
 
 
-This is shown as $$\begin{matrix} 1 & x & x^2 \\1 & y & y^2 \\1 & z & z^2 \\ \end{matrix}$$
+This is shown as 
 
 $$
 \begin{align*}
