@@ -82,8 +82,10 @@ $$
 
 
 
-
-
+$$\begin{eqnarray} 
+x' &=& &x \sin\phi &+& z \cos\phi \\\\
+z' &=& - &x \cos\phi &+& z \sin\phi \\\\
+\end{eqnarray}$$
 
 
 
