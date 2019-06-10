@@ -90,9 +90,9 @@ z' &=& - &x \cos\phi &+& z \sin\phi \\\\
 
 $$
 \begin{array}{c}
-y_1 \\\
-y_2 \mathtt{t}_i \\\
-z_{3,4}
+y & 3 \\\
+y & 2 \\\
+z & 3
 \end{array}
 $$
 
