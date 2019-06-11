@@ -104,3 +104,15 @@ $$
 
 Vectors elements are referred to using the syntax: [/y_i = i^{th}\\] element. For example, in the vector B, y_1 = 120, y_2 = 100.
 
+## Matrix Addition
+We add matrices by using the syntax below:
+
+
+
+
+
+
+
+
+
+
