@@ -43,9 +43,9 @@ A vector in a matrix with 1 column. An example of a vector is:
 
 $$
 \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
+      120 \\
+      100 \\
+      50
     \end{array} \right)
 $$
 
@@ -101,3 +101,6 @@ $$
     \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
     \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
  \end{pmatrix}
+
+Vectors elements are referred to using the syntax: [/y_i = i^{th}\\] element. For example, in the vector B, y_1 = 120, y_2 = 100.
+
