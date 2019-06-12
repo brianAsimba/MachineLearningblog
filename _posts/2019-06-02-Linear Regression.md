@@ -106,6 +106,7 @@ Vectors elements are referred to using the syntax: [/y_i = i^{th}\\] element. Fo
 
 ## Matrix Addition
 We add matrices by using the syntax below:
+\\[
 \begin{pmatrix}
     \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\\
     \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
@@ -115,6 +116,7 @@ We add matrices by using the syntax below:
     \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
     \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
  \end{pmatrix}
+ \\]
 
 
 
