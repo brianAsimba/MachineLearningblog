@@ -144,13 +144,35 @@ We add matrices by using the syntax below:
     \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\\
     \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
     \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
- \end{pmatrix}  \+ \begin{pmatrix}
+ \end{pmatrix}  \times \begin{pmatrix}
     \frac{1}{5}\\\
     \frac{1}{5}\\\
     \frac{1}{5}
  \end{pmatrix} 
  \\]
  
+ Here is a simple example of how matrices are used in Machine Learning in the House prediction algorithm. If we have four houses and we want to computethe hupoithesis, here is how we would go about it.
+ 
+ House sizes:
+ 1500
+ 1300
+ 2200
+ 2500
+ 
+The hypothesis we want to use is \\(h_\theta(x)=50 + {0.5 x}\\) , then this can be expressed as a matrix or vector as:
+\\[
+\begin{pmatrix}
+    \1 & \frac{5}{12} & 1500 \\\
+    \1 & \frac{1}{6} & 1300 \\\
+    \1 & \frac{1}{6} & 2200 \\\
+    \1 & -\frac{1}{6} & 2500
+ \end{pmatrix}  \times \begin{pmatrix}
+    50 \\\
+    0.5
+ \end{pmatrix} 
+ \\]
+  
+  
  
  
  
