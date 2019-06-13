@@ -171,13 +171,22 @@ The hypothesis we want to use is \\(h_\theta(x)=50 + {0.5 x}\\) , then this can 
     0.5
  \end{pmatrix} 
  \\]
-  
-  
+The same results can be obtained using this hyoithesis, but using For loop. However, using for loops is not effective and it is much more computationally costly than using Matrices.
  
+Matrix0 Matrix Multiplication:
+A matrix of dimension mxn can only be multiplied by another matrix of dimension nxo.
  
- 
- 
- 
+ \\[
+\begin{pmatrix}
+    \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\\
+    \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
+    \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
+ \end{pmatrix}  \times \begin{pmatrix}
+    \frac{1}{5}\\\
+    \frac{1}{5}\\\
+    \frac{1}{5}
+ \end{pmatrix} 
+ \\]
  
  
  
