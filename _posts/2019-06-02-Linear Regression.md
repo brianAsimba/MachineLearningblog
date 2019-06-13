@@ -162,10 +162,10 @@ We add matrices by using the syntax below:
 The hypothesis we want to use is \\(h_\theta(x)=50 + {0.5 x}\\) , then this can be expressed as a matrix or vector as:
 \\[
 \begin{pmatrix}
-    \1 & \frac{5}{12} & 1500 \\\
-    \1 & \frac{1}{6} & 1300 \\\
-    \1 & \frac{1}{6} & 2200 \\\
-    \1 & -\frac{1}{6} & 2500
+    1 & 1500 \\\
+    1 & 1300 \\\
+    1 & 2200 \\\
+    1 & 2500
  \end{pmatrix}  \times \begin{pmatrix}
     50 \\\
     0.5
