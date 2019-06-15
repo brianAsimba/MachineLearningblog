@@ -199,12 +199,11 @@ Size in Ft. squared |
  
 And we have four competing hyopothesis:
 Hypotheses| 
------------- | -------------
-\\[h_\theta(x)=80 + {0.5 x}\\]  
+------------ | ------------- 
 \\[h_\theta(x)=100 + {0.75 x}\\]
 \\[h_\theta(x)=30 + {0.35 x}\\]
 \\[h_\theta(x)=20 + {0.55 x}\\]
- 
+\\[h_\theta(x)=80 + {0.5 x}\\]  
  
  
  
