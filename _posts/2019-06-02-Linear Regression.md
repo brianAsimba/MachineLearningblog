@@ -203,10 +203,19 @@ And we have four competing hyopothesis:
 \\[h_\theta(x)=20 + {0.55 x}\\]
 \\[h_\theta(x)=80 + {0.5 x}\\]  
  
- 
- 
- 
- 
+\\[
+\begin{pmatrix}
+    \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\\
+    \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
+    \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
+ \end{pmatrix}  \times \begin{pmatrix}
+    \frac{1}{5}\\\
+    \frac{1}{5}\\\
+    \frac{1}{5} \end{pmatrix} \= \begin{pmatrix}
+    \frac{1}{5} & \frac{5}{12} & \frac{7}{20} \\\
+    \frac{1}{5} & \frac{1}{6} & \frac{1}{10} \\\
+    \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
+ \end{pmatrix}\\] 
  
  
 
