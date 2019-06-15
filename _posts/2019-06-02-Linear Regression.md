@@ -275,6 +275,17 @@ Transpose in Matrices is the flipping of a Matrix so that the columns become the
 
 ## Multi-variate Linear Regression
 
+We have gone through Linear Regression wiht a single variable in the first blog post. We now have an idea of how Matrices should be used in Machine Learning to make coding computationally efficient. Multi-variate Linear Regression is where the hypothesis has more than one variable. An example of this can be seen in the House Price prediction. Let us say we have the following data:
+
+
+Size in Ft. squared | Number of Bedrooms | Number of rooms | Proximity from Downtown\\(Ft^2\\)
+------------ | -------------
+1200 | 2 | 10 | 500
+500 | 3 | 12 | 50
+5000 | 5 | 15 | 1000
+1000 | 3 | 10 | 5000
+... | ... | ... | ...
+
 
 
 
