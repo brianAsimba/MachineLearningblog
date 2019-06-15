@@ -242,13 +242,13 @@ Inverse in Mathematics, is the number or array that you can multiply a Real numb
 For Matrices, multiplying the matrices by the Identity matrix yields the Identity Matrix. For example:
 \\[
 \begin{pmatrix}
-    3 & 1 & 7 \\\
-    4 & 2 & 8 \\\
-    5 & 3 & 9
+    3 & 2 & 1 \\\
+    5 & 3 & 2 \\\
+    1 & 5 & 3
  \end{pmatrix} \times \begin{pmatrix}
-    \frac{1}{3} & \frac{1}{1} & \frac{1}{7}\\\
-    \frac{1}{4} & \frac{1}{2} & \frac{1}{8}\\\
-    \frac{1}{5} & \frac{1}{3} & \frac{1}{9}
+    \frac{1}{7} & \frac{1}{7} & \frac{-1}{7}\\\
+    \frac{13}{7} & \frac{-8}{7} & \frac{1}{7}\\\
+    \frac{-22}{7} & \frac{13}{7} & \frac{1}{7}
  \end{pmatrix} \= \begin{pmatrix}
     1 & 0 & 0\\\
     0 & 1 & 0\\\
@@ -257,12 +257,7 @@ For Matrices, multiplying the matrices by the Identity matrix yields the Identit
  \\]
 
 
-
-
-
-
-
-
+Transpose in Matrices is the 
 
 
 
