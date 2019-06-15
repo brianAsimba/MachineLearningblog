@@ -173,7 +173,7 @@ The hypothesis we want to use is \\(h_\theta(x)=50 + {0.5 x}\\) , then this can 
  \\]
 The same results can be obtained using this hyoithesis, but using For loop. However, using for loops is not effective and it is much more computationally costly than using Matrices.
  
-Matrix0 Matrix Multiplication:
+Matrix-Matrix Multiplication:
 A matrix of dimension mxn can only be multiplied by another matrix of dimension nxo.
  
  \\[
@@ -188,11 +188,18 @@ A matrix of dimension mxn can only be multiplied by another matrix of dimension 
  \end{pmatrix} 
  \\]
  
+ One area where Matrix-Matrix multiplication is used is when computing different hypotheses outputs. An example is this one:
+House sizes:
+5000
+1200
+1000
+3000
  
- 
- 
- 
- 
+And we have four competing hyopothesis:
+\\[h_\theta(x)=80 + {0.5 x}\\]  
+\\[h_\theta(x)=100 + {0.75 x}\\] 
+\\[h_\theta(x)=30 + {0.35 x}\\] 
+\\[h_\theta(x)=20 + {0.55 x}\\]  
  
  
  
