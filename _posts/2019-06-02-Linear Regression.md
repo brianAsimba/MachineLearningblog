@@ -257,11 +257,21 @@ For Matrices, multiplying the matrices by the Identity matrix yields the Identit
  \\]
 
 
-Transpose in Matrices is the 
+Transpose in Matrices is the flipping of a Matrix so that the columns become the rows as shown below:
 
+\\[B=
+\begin{pmatrix}
+    3 & 2 & 1 \\\
+    5 & 3 & 2 \\\
+    1 & 5 & 3
+ \\]
 
-
-
+\\[B^{T}=
+\begin{pmatrix}
+    3 & 2 & 1 \\\
+    5 & 3 & 2 \\\
+    1 & 5 & 3
+ \\]
 
 
 
