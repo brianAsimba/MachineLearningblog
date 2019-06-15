@@ -219,5 +219,51 @@ And we have four competing hyopothesis:
  
 The final matrix is the predictions from the hypotheses, with the first column is the predictions of the first hypothesis and so on and so forth.
 
+## Inverse and Transpose
+Inverse in Mathematics, is the number or array that you can multiply a Real number with to get the identity number. In scalars, identity is the number 1, meaning any real number multiplied by 1 yield that Real number as the answer. For example \\(x + 1 = 1 + x\\). In Matrices, Identity is denoted by \\(I_{n x n}\\). Identity matrix for Matrices have 1 in the diagonal and 1 everywhere else in the Matrix as shown below:
+
+\\[
+\begin{pmatrix}
+    1 & 0 & 0 \\\
+    0 & 1 & 0 \\\
+    0 & 0 & 1
+ \end{pmatrix}
+ \\]
+
+
+\\[
+\begin{pmatrix}
+    1 & 0 & 0 & 0\\\
+    0 & 1 & 0 & 0\\\
+    0 & 0 & 1 & 0\\\
+    0 & 0 & 0 & 1
+ \end{pmatrix}
+ \\]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
