@@ -217,7 +217,7 @@ And we have four competing hyopothesis:
     \frac{1}{5} & -\frac{1}{6} & \frac{1}{10}
  \end{pmatrix}\\] 
  
- 
+The final matrix is the predictions from the hypotheses, with the first column is the predictions of the first hypothesis and so on and so forth.
 
 
 
