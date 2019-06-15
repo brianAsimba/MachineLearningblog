@@ -190,12 +190,12 @@ A matrix of dimension mxn can only be multiplied by another matrix of dimension 
  
  One area where Matrix-Matrix multiplication is used is when computing different hypotheses outputs. An example is this one:
 
-Size in Ft. squared
------------- |
-1200 |
-500 | 
-5000 |
 
+Size in Ft. squared | 
+------------ | -------------
+1200 | 
+500 | 
+5000 | 
  
 And we have four competing hyopothesis:
 \\[h_\theta(x)=80 + {0.5 x}\\]|  
