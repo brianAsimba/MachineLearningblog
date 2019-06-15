@@ -273,6 +273,7 @@ Transpose in Matrices is the flipping of a Matrix so that the columns become the
     1 & 5 & 3
  \\]
 
+## Multi-variate Linear Regression
 
 
 
