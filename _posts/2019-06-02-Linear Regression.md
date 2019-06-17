@@ -286,10 +286,7 @@ Size in Ft. squared | Number of Bedrooms | Number of rooms | Proximity from Down
 1000 | 3 | 10 | 5000
 ... | ... | ... | ...
 
-
-
-
-
+When using Multiple feature, we would name the features above as \\(X_1\\),\\(X_2\\),\\(X_3\\),\\(X_4\\) for the Size in Ft., NUmbe of Bedrooms, Number of Rooms and Proximity to Downtown respectively.
 
 
 
