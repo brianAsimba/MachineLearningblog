@@ -303,11 +303,10 @@ For example, in the housing data above:
  
  Our hyoithesis will now bw modified to include the extra parameters as shown below:
  
- \\[h_\theta(x)=50 + {0.5 x}\\]
+ \\[h_\theta(x)={\theta_0 X_0} + {\theta_1 X_1}+... +\{\theta_n X_n}\\] 
+ 
 
-
-
-
+\\[h_\theta(x)={\theta^{T} X\\] 
 
 
 
