@@ -328,18 +328,18 @@ Where:
  
  \\]
 
+For multiple variables, these are the equations of the Hypothesis, Parameters, cost function and gradient descent:
+Hypothesis: \\(h_\theta(x)= {\theta^{T} X = {\theta_0}x_0 + {\theta_1 x_1} + {\theta_2 x_2} + ... + {\theta_n x_n}\\)
+Parameters: \\({\theta\\)
+Cost function: \\(J(\theta) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\)
+Gradient Descent: Repeat{
+\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j} J(\theta)\\]
+}        (simulateneously update for every  j = 0,1,2,...n)
+Which after differentiation comes to:
+\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j} J(\theta)\\]
+}        (simulateneously update for every  j = 0,1,2,...n)
 
-
-
-
-
-
-
-
-
-
-
-
+\\[  \theta_j := \theta_j  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{j}^{i}\\]
 
 
 
