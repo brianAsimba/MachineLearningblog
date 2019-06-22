@@ -348,7 +348,11 @@ From this update algorithm, if we had 3 parameters, they will be updated as foll
 \\[  \theta_2 := \theta_2  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{2}^{i}\\]
 \\[  \theta_3 := \theta_3  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{3}^{i}\\]
 
-
+## Feature Scaling
+Feature scaling is the practivce of makling sure that all the features are taking the same scale. For example, in the housing analysis, the bedrooms and the size of the houses are of different scales. Trying to solve an algorithm with the different feature scales will prove to be problematic and might take a long time to converge. Scaling will enable us to shrink the features to the same scale, preferably in the range \\(-1\leq x_i\leq 1\\) or as close as possible to this range. For example house sizes \\(x_1\\) ranging from 1-10000 \\(ft^2\\), and \\(x_2\\), number of bedroom ranging from 1-5 would be scaled as:
+\\[x_1 = \frac{size}{10000}]
+\\[x_1 = \frac{bedrooms}{6}]
+One way that features are scaled is using Mean Normalization, which uses this formula:
 
 
 
