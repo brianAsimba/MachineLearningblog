@@ -286,7 +286,47 @@ Size in Ft. squared | Number of Bedrooms | Number of rooms | Proximity from Down
 1000 | 3 | 10 | 5000
 ... | ... | ... | ...
 
-When using Multiple feature, we would name the features above as \\(X_1\\),\\(X_2\\),\\(X_3\\),\\(X_4\\) for the Size in Ft., NUmbe of Bedrooms, Number of Rooms and Proximity to Downtown respectively.
+When using Multiple feature, we would name the features above as \\(X_1\\),\\(X_2\\),\\(X_3\\),\\(X_4\\) for the Size in Ft., Number of Bedrooms, Number of Rooms and Proximity to Downtown respectively. m willbe the number of training examples as before and n as the number of imput feature, \\(x^{(2)}\\) will denote the \\(i^{th}\\) training eample in the training set, while \\(x_{j}^{i}\\) will the \\(j^{th}) value in the \\(i^{th}) tranining example.
+
+For example, in the housing data above:
+
+\\[x^{(4)} =
+\begin{pmatrix}
+    1 & 0 & 0 & 0\\\
+    0 & 1 & 0 & 0\\\
+    0 & 0 & 1 & 0\\\
+    0 & 0 & 0 & 1
+ \end{pmatrix}
+ \\]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
