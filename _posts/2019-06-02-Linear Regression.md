@@ -335,11 +335,24 @@ Cost function: \\(J(\theta) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)
 Gradient Descent: Repeat{
 \\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j} J(\theta)\\]
 }        (simulateneously update for every  j = 0,1,2,...n)
-Which after differentiation comes to:
-\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j} J(\theta)\\]
-}        (simulateneously update for every  j = 0,1,2,...n)
 
+For multiple parameters, update the \\(\theta\\) parameters as shown below:
+Repeat{
 \\[  \theta_j := \theta_j  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{j}^{i}\\]
+        (simulateneously update for every  j = 0,1,2,...n)
+        }
+  
+From this update algorithm, if we had 3 parameters, they will be updated as following:
+\\[  \theta_0 := \theta_0  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{0}^{i}\\]
+\\[  \theta_1 := \theta_1  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{1}^{i}\\]
+\\[  \theta_2 := \theta_2  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{2}^{i}\\]
+\\[  \theta_3 := \theta_3  - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_{3}^{i}\\]
+
+
+
+
+
+
 
 
 
