@@ -308,9 +308,25 @@ For example, in the housing data above:
 
 \\[h_\theta(x)={\theta^{T} X\\] 
 
+Where:
 
-
-
+\\[X =
+\begin{pmatrix}
+    X_0\\\
+    X_1\\\
+    X_2\\\
+    \vdots\\\
+    X_n
+ \end{pmatrix}
+ \begin{pmatrix}
+    \theta_0\\\
+    \theta_1\\\
+    \theta_2\\\
+    \vdots\\\
+    \theta_n
+ \end{pmatrix} 
+ 
+ \\]
 
 
 
