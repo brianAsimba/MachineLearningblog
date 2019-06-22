@@ -298,9 +298,12 @@ For example, in the housing data above:
     0 & 0 & 0 & 1
  \end{pmatrix}
  \\]
-
-
-
+ 
+ Where \\(x_{1}^{4}\\) = 1000, \\(x_{2}^{4}\\) = 3 etcetera.
+ 
+ Our hyoithesis will now bw modified to include the extra parameters as shown below:
+ 
+ \\[h_\theta(x)=50 + {0.5 x}\\]
 
 
 
