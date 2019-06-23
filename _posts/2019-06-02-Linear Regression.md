@@ -353,6 +353,11 @@ Feature scaling is the practivce of makling sure that all the features are takin
 \\[x_1 = \frac{size}{10000}]
 \\[x_1 = \frac{bedrooms}{6}]
 One way that features are scaled is using Mean Normalization, which uses this formula:
+\\[\frac {x_i - \mu_i}{S_1}\\], where \\(\mu\\) is the average and \\(S_1\\) is the range. Note that we do not apply to \\(x_0\\) since it has a value of 1.
+Applying the mean normalization to the houses would yield the following:
+\\[x_1 = \frac{size - 5000}{10000}\\], where 5000 is the average size of the houses.
+
+
 
 
 
