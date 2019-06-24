@@ -361,8 +361,7 @@ Applying the mean normalization to the houses would yield the following:
 In Gradient Descent, the idea if to tweak parameters iteratively to minimize the cost function.  good analogy of how gradient descent works is to imagine that you are on top of a mountain and trying to ge do the bottom of the mountain. The quickest way to get to the bottom is to use the steepest slope to the bottom of the mountain. What Gradient Descent does it to measure the local slope of the error function with regards to the parameter \\(theta\\) and it moves in the direction that will minimize the slope.This is done iteratively until the gradient of 0 is achieved.
 An important parameter in Gradient Descent is the Learning Rate hyperparameter. It determines what stepp size the algorithm takes to reach to the global minima. If it is set to be too small, the algorithm converges very slowly which can be computationally costly, while if the Learning Rate is too large the algorithm will diverge instead of converging. One issue with Gradient Descent is that it can be stuck in the local optimum instead if a global optimum. This is an issue in algorithms that are not linear, such as Linear Regression. This is an issue we will deal with when I cover other typees of algorithms.
 
-
-
+A sanity check to make sure that gradient descent is running properly is to plot a graph of the Cost Function \\(J_\theta) against the number of iterations. If properly coded the cost should be increasing with every iteration. The number of iterations that it takes to solve al algorithm varies from algorithm to algorithm. The 
 
 
 
