@@ -301,7 +301,7 @@ For example, in the housing data above:
  
  Where \\(x_{1}^{4}\\) = 1000, \\(x_{2}^{4}\\) = 3 etcetera.
  
- Our hyoithesis will now bw modified to include the extra parameters as shown below:
+ Our hyopothesis will now bw modified to include the extra parameters as shown below:
  
  \\[h_\theta(x)={\theta_0 X_0} + {\theta_1 X_1}+... +\{\theta_n X_n}\\] 
  
@@ -361,7 +361,46 @@ Applying the mean normalization to the houses would yield the following:
 In Gradient Descent, the idea if to tweak parameters iteratively to minimize the cost function.  good analogy of how gradient descent works is to imagine that you are on top of a mountain and trying to ge do the bottom of the mountain. The quickest way to get to the bottom is to use the steepest slope to the bottom of the mountain. What Gradient Descent does it to measure the local slope of the error function with regards to the parameter \\(theta\\) and it moves in the direction that will minimize the slope.This is done iteratively until the gradient of 0 is achieved.
 An important parameter in Gradient Descent is the Learning Rate hyperparameter. It determines what stepp size the algorithm takes to reach to the global minima. If it is set to be too small, the algorithm converges very slowly which can be computationally costly, while if the Learning Rate is too large the algorithm will diverge instead of converging. One issue with Gradient Descent is that it can be stuck in the local optimum instead if a global optimum. This is an issue in algorithms that are not linear, such as Linear Regression. This is an issue we will deal with when I cover other typees of algorithms.
 
-A sanity check to make sure that gradient descent is running properly is to plot a graph of the Cost Function \\(J_\theta) against the number of iterations. If properly coded the cost should be increasing with every iteration. The number of iterations that it takes to solve al algorithm varies from algorithm to algorithm. The 
+A sanity check to make sure that gradient descent is running properly is to plot a graph of the Cost Function \\(J_\theta) against the number of iterations. If properly coded the cost should be increasing with every iteration. The number of iterations that it takes to solve al algorithm varies from algorithm to algorithm. The best way to come up with the best \\(\alpha)\\ is to run different \\(alpha)\\ values and to test which one gives the convergence after the number of iterations require.
+
+## Polynomial regression    
+Polynomial regression is where the hypothesis used for the machine learning algorithm uses a polyunomial function such as a square functin, quadratic function, square root function. Using these features can assist in matching the data more accurately.
+
+## Normal Equation
+Normal equation is the way to solve for the \\(\theta)\\ parameters analytically using mathematical equations to find a closed-form colution.
+
+If we assume that we have a cost function of:
+\\[J(\theta)=a(\theta)^2 + b(\theta) + c\\]
+
+Minimizing a function in Calculus, required that we take the derivative of the function with respect to \\(\theta)\\ and set it equal to 0 to solve for the \\(\theta)\\ values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
