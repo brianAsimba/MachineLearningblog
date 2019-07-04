@@ -374,9 +374,15 @@ If we assume that we have a cost function of:
 
 Minimizing a function in Calculus, required that we take the derivative of the function with respect to \\(\theta)\\ and set it equal to 0 to solve for the \\(\theta)\\ values.
 
+Therefore the equation above would be as shown below:
 
+\\[\frac{\partial}{\partial \theta} J(\theta_0) = 0 ;;; set to 0 (for every j)\\]
+The solve for \\(\theta\\)
 
+Since we now have mutpiple \\(\theta\\) parameters, we have the cost function changed to:
 
+\\[J(\theta_0, \theta_1, \theta_2...,\theta_m) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\] 
+Thren we solve for \\(\theta\\) parameters from this differentiation.
 
 
 
