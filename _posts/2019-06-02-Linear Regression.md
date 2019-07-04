@@ -415,6 +415,15 @@ Then the Matrix will be written as:
     1 & 1000 & 3 & 10 & 5000 & 250000\\\
     1 & 3000 & 2 & 15 & 50000 & 150000
  \end{pmatrix}
+ \begin{pmatrix}
+ y =
+    500000\\\
+    200000\\\
+    300000\\\
+    250000\\\
+    150000
+ \end{pmatrix} 
+ 
  \\]
 
 
