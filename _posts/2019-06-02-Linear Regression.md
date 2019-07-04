@@ -382,12 +382,40 @@ The solve for \\(\theta\\)
 Since we now have mutpiple \\(\theta\\) parameters, we have the cost function changed to:
 
 \\[J(\theta_0, \theta_1, \theta_2...,\theta_m) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\] 
-Thren we solve for \\(\theta\\) parameters from this differentiation.
+Then we solve for \\(\theta\\) parameters from this differentiation.
 
+Suppose we are working with the data for the housing prices:
+Size in Ft. squared | Number of Bedrooms | Number of rooms | Proximity from Downtown\\(Ft^2\\) | Prices($)
+------------ | -------------
+x_1 | x_2 | x_3 | x_4 | y
+1200 | 2 | 10 | 500 | 500000
+500 | 3 | 12 | 50 | 200000
+5000 | 5 | 15 | 1000 | 300000
+1000 | 3 | 10 | 5000 | 250000
+3000 | 2 | 15 | 50000 | 150000
+... | ... | ... | ... | ...
 
+To use the Normal Equation, we first construct a Matrix of this data, we first add a column for x_1 and consruct the Matrix as shown
 
+ | Size in Ft. squared | Number of Bedrooms | Number of rooms | Proximity from Downtown\\(Ft^2\\) | Prices($)
+------------ | -------------
+x_0 |x_1 | x_2 | x_3 | x_4 | y
+1 | 1200 | 2 | 10 | 500 | 500000
+1 | 500 | 3 | 12 | 50 | 200000
+1 | 5000 | 5 | 15 | 1000 | 300000
+1 | 1000 | 3 | 10 | 5000 | 250000
+1 | 3000 | 2 | 15 | 50000 | 150000
+... | ... | ... | ... | ... | ...
 
-
+Then the Matrix will be written as:
+\\begin{pmatrix}
+    1 & 1200 & 2 & 10 & 500 & 500000\\\
+    1 & 500 & 3 & 12 & 50 & 200000\\\
+    1 & 5000 & 5 & 15 & 1000 & 300000\\\
+    1 & 1000 & 3 & 10 & 5000 & 250000\\\
+    1 & 3000 & 2 & 15 & 50000 & 150000
+ \end{pmatrix}
+ \\]
 
 
 
