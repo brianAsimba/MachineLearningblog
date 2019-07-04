@@ -429,7 +429,7 @@ Then the Matrix will be written as:
 \\(\theta\\) is then solved using the equation:
 [\\(\theta) = (X^{T}X)^{-1}(X^{T}Y)]\\
 
-
+Suppose we have the following features:
 
 
 
