@@ -164,8 +164,8 @@ Stay tuned for the next posts for where we will go through an example of Linear 
 
 ## References:
 
-Hands on Machine Learning with Scikit-Learn & TensorFlow by Aurelion Geron.
-Coursera course- Machine Learning by Andrew Ng'.
+1). Hands on Machine Learning with Scikit-Learn & TensorFlow by Aurelion Geron.
+2). Coursera course- Machine Learning by Andrew Ng'.
 
 
 
