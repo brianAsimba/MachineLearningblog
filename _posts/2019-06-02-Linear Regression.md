@@ -440,7 +440,7 @@ Merits | Demerits
 There is no need for (\alpha)\\ since it is solved analytically. | Slow when there are lots of features, more than 10^6.
 No need to invert a large matrix as requires in Normal Equation. | Inverting a large matrix is computationally expensive.
 
-
+POint to note is that the Normal Equations only works for Linear Regression that do not have a lot of features. In complex algorithms such as Neural Networks, the Normal Equation does not work. Therefore, the Gradient Descent is still very useful to solve complex problems.
 
 
 
