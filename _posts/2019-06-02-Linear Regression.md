@@ -429,13 +429,16 @@ Then the Matrix will be written as:
 \\(\theta\\) is then solved using the equation:
 [\\(\theta) = (X^{T}X)^{-1}(X^{T}Y)]\\
 
-Suppose we have the following features:
+A question that is normally asked is when to use the Noarmal Equation versus Gradient Descent. Here are some advantages and disadventages of both methods:
+For Gradient Descent, the advantages and disadvantages are:
+Merits | Demerits
+Need (\alpha)\\ for Gradient Descent steps | Can be used to solve when there are a lot of features, more than 10^6.
+Needs a lot iterations to converge to a solution
 
-
-
-
-
-
+Normal Equation, has the following merits and demerits:
+Merits | Demerits
+There is no need for (\alpha)\\ since it is solved analytically. | Slow when there are lots of features, more than 10^6.
+No need to invert a large matrix as requires in Normal Equation. | Inverting a large matrix is computationally expensive.
 
 
 
