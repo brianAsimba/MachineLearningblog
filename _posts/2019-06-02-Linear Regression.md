@@ -440,9 +440,10 @@ Merits | Demerits
 There is no need for (\alpha)\\ since it is solved analytically. | Slow when there are lots of features, more than 10^6.
 No need to invert a large matrix as requires in Normal Equation. | Inverting a large matrix is computationally expensive.
 
-POint to note is that the Normal Equations only works for Linear Regression that do not have a lot of features. In complex algorithms such as Neural Networks, the Normal Equation does not work. Therefore, the Gradient Descent is still very useful to solve complex problems.
+Point to note is that the Normal Equations only works for Linear Regression that do not have a lot of features. In complex algorithms such as Neural Networks, the Normal Equation does not work. Therefore, the Gradient Descent is still very useful to solve complex problems.
 
-
+## Linear Regression with Single variable
+We will begin our first Machine Learning algorithm with the Linear Regression algorithm. It is always good practice, to plot the data to view that data that we are working with. This wil be done by plotting the points in a scatter plot as shown below:
 
 
 
