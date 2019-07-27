@@ -443,24 +443,23 @@ No need to invert a large matrix as requires in Normal Equation. | Inverting a l
 Point to note is that the Normal Equations only works for Linear Regression that do not have a lot of features. In complex algorithms such as Neural Networks, the Normal Equation does not work. Therefore, the Gradient Descent is still very useful to solve complex problems.
 
 ## Linear Regression with Single variable
-We will begin our first Machine Learning algorithm with the Linear Regression algorithm. It is always good practice, to plot the data to view that data that we are working with. This wil be done by plotting the points in a scatter plot as shown below:
+We will begin our first Machine Learning algorithm with the Linear Regression algorithm. It is always good practice, to plot the data to view that data that we are working with. This wil be done by plotting the points in a scatter plot as shown below showing scatter plot between the profit and population.
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Screen Shot 2019-07-27 at 5.22.16 PM" style="display: block; margin: auto;"/>
 <figcaption>Branches of Machine Learning</figcaption> 
 </figure>
 
+We can plot this because it is only one dimensional plot with one variable. Later on, when we work with multi-dimensional problems where we cannot plot 2 dimensinal plots. Now, we need to fit a linear regression line to the dataset using Gradient Descent.
+The objective of this model is to minimize the cost function:
+\\[J(\theta) = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)^2\\]  
 
+where the hypothesis (\h_(theta(x))\\ is given by the linear model:
+\\[J(\theta)(x) = \(\theta^T)x =_(\theta(0)) + (\(theta_1))x_1\\]
 
+We are going to then adjust the (\theta_j) parameters to minimize the cost function. 
 
-
-
-
-
-
-
-
-
+\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j} J(\theta_0,\theta_1 )\\] where we update all (\theta_j) for all j.
 
 
 
