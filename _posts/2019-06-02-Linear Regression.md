@@ -445,7 +445,10 @@ Point to note is that the Normal Equations only works for Linear Regression that
 ## Linear Regression with Single variable
 We will begin our first Machine Learning algorithm with the Linear Regression algorithm. It is always good practice, to plot the data to view that data that we are working with. This wil be done by plotting the points in a scatter plot as shown below:
 
-
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Screen Shot 2019-07-27 at 5.22.16 PM" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
 
 
 
