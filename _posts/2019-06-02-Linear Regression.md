@@ -463,11 +463,10 @@ We are going to then adjust the (\theta_j) parameters to minimize the cost funct
 \(theta_j\\) for all j).
 Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add an additional column of ones in the X matrix to take into account the intercept,\\(\theta_0\\).
 
-
- 
- 
- 
- 
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Gradient Descent" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure> 
  
  
  
