@@ -459,12 +459,16 @@ where the hypothesis (\h_(theta(x))\\ is given by the linear model:
 
 We are going to then adjust the (\theta_j) parameters to minimize the cost function. 
 
-\\[\theta_j  :=\theta_j -\alpha\frac{\partial}{\partial \theta_j} J(\theta_0,\theta_1 )\\] where we update all (\theta_j) for all j.
+\\[\theta_j =  \theta_j -\alpha \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_j^(i)\\]  (simulteneously update 
+\(theta_j\\) for all j).
+Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add an additional column of ones in the X matrix to take into account the intercept,\\(\theta_0\\).
+ 
 
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 
 
