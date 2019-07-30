@@ -481,8 +481,10 @@ Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add
 <figcaption>Branches of Machine Learning</figcaption> 
 </figure> 
  
- 
- 
+
+Debugging:
+1). If you are having errors while running, inspect the matris dimensions to make sure you are adding and multiplying the correct dimunsions of matrices.
+2). Octave interprets mathj operators to be matrix operations. THis can cause incompatibility errors. To perform normal multiplication of matrices, we need to add a "dot". A*B performs matrix multiplication while A.*B performs element-wise multiplication.
  
  
  
