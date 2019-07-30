@@ -461,7 +461,7 @@ We are going to then adjust the (\theta_j) parameters to minimize the cost funct
 
 \\[\theta_j =  \theta_j -\alpha \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^i)x_j^(i)\\]  (simulteneously update 
 \(theta_j\\) for all j).
-Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add an additional column of ones in the X matrix to take into account the intercept,\\(\theta_0\\).
+Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add an additional column of ones in the X matrix to take into account the intercept,.
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Linear fit.png" style="display: block; margin: auto;"/>
@@ -480,7 +480,8 @@ Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Gradient Descent.png" style="display: block; margin: auto;"/>
 <figcaption>Branches of Machine Learning</figcaption> 
 </figure> 
- 
+
+From the graph, you can see how \\(J_(\theta)\\) varies with change in (\theta_0)\\ and (\theta_1)\\. The cost function is bow-shaped and has a global minimum. The center point is the optimal point for (\theta_0)\\ and (\theta_1)\\. 
 
 Debugging:
 1). If you are having errors while running, inspect the matris dimensions to make sure you are adding and multiplying the correct dimunsions of matrices.
