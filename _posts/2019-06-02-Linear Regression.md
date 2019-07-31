@@ -488,12 +488,11 @@ Debugging:
 2). Octave interprets mathj operators to be matrix operations. THis can cause incompatibility errors. To perform normal multiplication of matrices, we need to add a "dot". A*B performs matrix multiplication while A.*B performs element-wise multiplication.
  
 ## Linear Regression with MUltiple variables
-For this algorithm, we will predict the housing prices. Suppose we want to sell a house and we want to figure out what the best price should be. We first collect housing data from the city we have our house and create a housing model. We wil use the well known, Portland housing prices dataset to create this model. Some of the features will be size of the house, number of bedrooms.
+For this algorithm, we will predict the housing prices. Suppose we want to sell a house and we want to figure out what the best price should be. We first collect housing data from the city we have our house and create a housing model. We wil use the well known, Portland housing prices dataset to create this model. Some of the features will be size of the house, number of bedrooms. Here are 5 of the first input features from the dataset:
+
+
  
- 
- 
- 
- 
+Because of the different scales of the input parameters, we need to perform featurescaling to help with convergence and make the algorithm converge faster. We use the normalizatin Equation \\(\frac {x_i - \mu_i}{S_1}\\) to normalize all the input features.
  
  
  
