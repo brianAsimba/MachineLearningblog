@@ -484,9 +484,11 @@ Where the (\theta\\) parameters are adjusted in each iteration. NOte that we add
 From the graph, you can see how \\(J_(\theta)\\) varies with change in (\theta_0)\\ and (\theta_1)\\. The cost function is bow-shaped and has a global minimum. The center point is the optimal point for (\theta_0)\\ and (\theta_1)\\. 
 
 Debugging:
-1). If you are having errors while running, inspect the matris dimensions to make sure you are adding and multiplying the correct dimunsions of matrices.
+1). If you are having errors while running, inspect the matris dimensions to make sure you are adding and multiplying the correct dimensions of matrices.
 2). Octave interprets mathj operators to be matrix operations. THis can cause incompatibility errors. To perform normal multiplication of matrices, we need to add a "dot". A*B performs matrix multiplication while A.*B performs element-wise multiplication.
  
+## Linear Regression with MUltiple variables
+For this algorithm, we will predict the housing prices. Suppose we want to sell a house and we want to figure out what the best price should be. We first collect housing data from the city we have our house and create a housing model. We wil use the well known, Portland housing prices dataset to create this model. Some of the features will be size of the house, number of bedrooms.
  
  
  
