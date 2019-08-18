@@ -51,7 +51,7 @@ If we vectorize the expressions, we get:
 Wwe then add the \\(a_{0}^{(2)} = 1\\) which is the bias term, making it a 4 dimensional vector.
 Then, finally we can calculate\\(z_^{(3)} = {\theta_}^{(2)} a^(2)\\) and (h_{\theta}{(x)} = a^{3} ={g(z^{(3)})\\)
 
-
+Forward propagation is the propagation of th
 
 
 
