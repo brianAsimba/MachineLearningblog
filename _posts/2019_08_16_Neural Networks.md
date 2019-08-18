@@ -35,9 +35,14 @@ In the 80s, there was a revival of interest in the ANNs as new network architect
  
  Where the hypothesis is given by \\(h_\theta(x)= \frac{1}{1+e^(-\theta x}\\) which is the Sigmoid/Logistic regression activation function. A neuron is modeled by a simple logistic regression. The neural takes the inputs and has the output as shown in the neuron using the activation function to perform the computation. \\(\theta\\) can also be called parameters or weights as it is usually referred to in neural networks.
  Some notations that we are using in the Neural Networks are:
+a_{i}^{(j)} = activatioons of the unit "i" in later "j"
+\\[\theta^(j)]\\ = matrix of weights/parameters controlling the function mapping from layer j to layer j+1.
 
+\\[a_{1}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3)\\]
+\\[a_{2}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3)\\]
+\\[a_{3}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3)\\]
+\\[h_{\theta}{(x)} = a_{1}^{(3)} = g({\theta_{10}}^{(2)} x_0+ {\theta_{11}}^{(2)} x_1 + {\theta_{12}}^{(2)} x_3  +{\theta_{13}}^{(2)} x_3)\\]
 
- 
 
 
 
