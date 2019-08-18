@@ -45,6 +45,13 @@ a_{i}^{(j)} = activatioons of the unit "i" in later "j"
 
 From the neural network, we cna see that if the network has s_j units in layer j, and s_j +1 units in layer j+1, then \\(\theta^(j)\\) will be dimension s_(j+1) * (s_j +1). The dimesnion of the matrix of the previous layer is s_j+1 because there is a bias unit added to the previous layer.
 
+If we vectorize the expressions, we get:
+\\[z_^{(2)} = {\theta_}^{(1)} x\\]
+\\[a_^{(2)} = {g(z^{(2)})\\], where g is the activation function that applied the multiplication elementwise.
+Wwe then add the \\(a_{0}^{(2)} = 1\\) which is the bias term, making it a 4 dimensional vector.
+Then, finally we can calculate\\(z_^{(3)} = {\theta_}^{(2)} a^(2)\\) and (h_{\theta}{(x)} = a^{3} ={g(z^{(3)})\\)
+
+
 
 
 
