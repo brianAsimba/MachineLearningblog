@@ -38,12 +38,12 @@ In the 80s, there was a revival of interest in the ANNs as new network architect
 a_{i}^{(j)} = activatioons of the unit "i" in later "j"
 \\[\theta^(j)]\\ = matrix of weights/parameters controlling the function mapping from layer j to layer j+1.
 
-\\[a_{1}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3)\\]
-\\[a_{2}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3)\\]
-\\[a_{3}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3)\\]
+\\[a_{1}^{(2)} = g({\theta_{10}}^{(1)} x_0+ {\theta_{11}}^{(1)} x_1 + {\theta_{12}}^{(1)} x_3  +{\theta_{13}}^{(1)} x_3) = g(z_{1}^{(2)}\\]
+\\[a_{2}^{(2)} = g({\theta_{20}}^{(1)} x_0+ {\theta_{21}}^{(1)} x_1 + {\theta_{22}}^{(1)} x_3  +{\theta_{23}}^{(1)} x_3) =g(z_{2}^{(2)}\\]
+\\[a_{3}^{(2)} = g({\theta_{30}}^{(1)} x_0+ {\theta_{31}}^{(1)} x_1 + {\theta_{32}}^{(1)} x_3  +{\theta_{33}}^{(1)} x_3) =g(z_{3}^{(2)}\\]
 \\[h_{\theta}{(x)} = a_{1}^{(3)} = g({\theta_{10}}^{(2)} x_0+ {\theta_{11}}^{(2)} x_1 + {\theta_{12}}^{(2)} x_3  +{\theta_{13}}^{(2)} x_3)\\]
 
-
+From the neural network, we cna see that if the network has s_j units in layer j, and s_j +1 units in layer j+1, then \\(\theta^(j)\\) will be dimension s_(j+1) * (s_j +1). The dimesnion of the matrix of the previous layer is s_j+1 because there is a bias unit added to the previous layer.
 
 
 
