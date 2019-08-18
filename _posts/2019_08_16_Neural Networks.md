@@ -19,3 +19,4 @@ In the 80s, there was a revival of interest in the ANNs as new network architect
 2). There is tremendous increase in computation cpower since the 90s which makes it possible to train large neural networks in a reasonable time. This is also in part due to the powerful GPUs.
 3). The algorithms have been improved from the 90s algorithms.
 4). Some limitations that were theoreticla such as local optima are no longer big issues. MOst of the time the algorithms converge in global optima or local optima that are pretty closr to the global optima.
+
