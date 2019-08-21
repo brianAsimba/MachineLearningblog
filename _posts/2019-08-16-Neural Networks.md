@@ -63,12 +63,50 @@ y = x_1 and x_2
 
 
 
+From the Neural Network, we see that:
+\\[h_\theta(x)=g(-30+20x_1+20x_2)\\] 
+Creating a truth table for this yields the following
+x_1    x_2 | \\[h_\theta(x)]\\
+0    0     | g(-30)~ 0
+0    1     | g(-10)~ 0
+1    0     | g(-10)~ 0
+1    1     | g(10) ~ 1
+
+From the truth table, you can see that the parameters x_1 amd x_2, gives the value 1 only when both x_1 and x_2 are positive.
+
+
  
+For the logic x1 or x2, where x1 and x2 \\(\epsilon)\\ {0,1}, here is the Neural Network:
+y = x_1 or x_2
+
+
+
+From the Neural Network, we see that:
+\\[h_\theta(x)=g(-10+20x_1+20x_2)\\] 
+Creating a truth table for this yields the following
+x_1    x_2 | \\[h_\theta(x)]\\
+0    0     | g(-10)~ 0
+0    1     | g(10)~ 1
+1    0     | g(10)~ 1
+1    1     | g(10)~ 1
+
+From the truth table, you can see that the parameters x_1 or x_2, gives the value 1 only when either x_1 or x_2 is positive. 
  
- 
- 
- 
- 
+For the logic NOT x1 and x2, where x1 and x2 \\(\epsilon)\\ {0,1}, here is the Neural Network:
+y = NOT x_1 AND x_2
+
+
+
+From the Neural Network, we see that:
+\\[h_\theta(x)=g(-10+20x_1+20x_2)\\] 
+Creating a truth table for this yields the following
+x_1    x_2 | \\[h_\theta(x)]\\
+0    0     | g(-10)~ 0
+0    1     | g(10)~ 1
+1    0     | g(10)~ 1
+1    1     | g(10)~ 1
+
+From the truth table, you can see that the parameters x_1 or x_2, gives the value 1 only when either x_1 or x_2 is positive.  
  
  
  
