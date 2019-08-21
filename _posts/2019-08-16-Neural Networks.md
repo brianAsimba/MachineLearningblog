@@ -117,10 +117,10 @@ y = NOT x_1 XNOR x_2
 THis is a Neural Network that combines the AND, OR and AND NOT functions to have even more complex classifications.
 Creating a truth table for this yields the following
 x_1    x_2 | a_{1}^{(2)}   a_{2}^{(2)} |\\[[h_\theta(x)]\\
-0    0     |      0              1      |g(10)~ 1
-0    1     |      0              0      |g(-10)~ 0
-1    0     |      0              0      |g(-10)~ 0
-1    1     |      0              0      |g(-30)~ 0
+0    0     |      0              1      |       1
+0    1     |      0              0      |       0
+1    0     |      0              0      |       0
+1    1     |      0              0      |       1
 
 From the truth table, you can see that the parameters x_1 or x_2, gives the value 1 only when either x_1 or x_2 is positive.
  
