@@ -56,6 +56,13 @@ Forward propagation is the propagation of the inputs via activation functions to
 
 
 The diagram below shows the Neural network. 
+
+Some examples of simple neural networks are these:
+For the Login x1 and x2, where x1 and x2 \\(\epsilon)\\ {0,1}, here is the Neural Network:
+y = x_1 and x_2
+
+
+
  
  
  
