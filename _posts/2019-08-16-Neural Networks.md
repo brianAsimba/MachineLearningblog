@@ -158,7 +158,7 @@ We, then compute each element in the summation, we compute \\(h\theta(x{^i})\\) 
  Then by computingmatrix product X\theta, we have:
   \\[
 \begin{pmatrix}
-     - (x^(1))^T\theta -\\
+     - (x^(1))^T\theta -\\\
      - (x^(2)^T\theta -\\\
      \vdots\\\
      - (x^(m))^T\theta -      
@@ -176,8 +176,22 @@ We, then compute each element in the summation, we compute \\(h\theta(x{^i})\\) 
 
 In order to vectorize, we should first write out the partial derivatives as shown:
 
- 
- 
+ \\[
+\begin{pmatrix}
+     \frac{\partial J }{partial\theta_0} \\\
+     \frac{\partial J }{partial\theta_1}  \\\
+     \frac{\partial J }{partial\theta_2}  \\\
+     \vdots\\\
+     \frac{\partial J }{partial\theta_n}     
+ \end{pmatrix}  \=  \frac{1}{m}\begin{pmatrix} 
+ \begin{pmatrix}
+     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_0{^i}) \\\
+     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_1{^i})  \\\
+     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_2{^i})  \\\
+     \vdots\\\
+     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_n{^i})    
+ \end{pmatrix}\\] 
+  
  
  
  
