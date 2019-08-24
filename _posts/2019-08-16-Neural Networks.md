@@ -192,9 +192,8 @@ In order to vectorize, we should first write out the partial derivatives as show
      \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_n{^i})    
  \end{pmatrix}\\] 
   
- 
- 
- 
+ The vectorized version yields:
+\\[\frac{1}{m}\sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x^{i}) =\frac{1}{m}X^T [(h\theta(x) - y)\\] 
  
  
  
