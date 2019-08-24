@@ -170,6 +170,33 @@ We, then compute each element in the summation, we compute \\(h\theta(x{^i})\\) 
   \end{pmatrix}  \\] 
  
  
+ These equations provides us the means to calculate all the products \\(\theta^T x^(i)\\) in one matrix calculaion.The gradient for the unregularized logistic regression is given by:
+
+\\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)})\\] 
+
+In order to vectorize, we should first write out the partial derivatives as shown:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
