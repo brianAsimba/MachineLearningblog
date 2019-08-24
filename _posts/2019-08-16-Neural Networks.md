@@ -204,8 +204,14 @@ In order to vectorize, we should first write out the partial derivatives as show
  \end{pmatrix}  
 \\] 
  
- 
- 
+ ## Vectorizing Regularized Logistic Regression
+Now we will add regularization to the Logistic Regression in order to avoid overfitting of the parameters. The Regularized Logistic regression is given by:
+\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}(-y log(h\theta(x{^i})) - (1-y({^i})) log (1-h\theta(x{^i}))) + \frac{\lambda}{2m}\sum_{j=1}^{n} \theta_j{^2}\\] 
+Where we do not regalarize the \\(\theta_0\\) whioch is used for the bias term. The partial derivatives for the regalarized logistic regressions is given as follows:
+
+\\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)})\\] for j=0
+\\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)}) +\frac{\lambda}{m}\theta_j\\] 
+
  
  
  
