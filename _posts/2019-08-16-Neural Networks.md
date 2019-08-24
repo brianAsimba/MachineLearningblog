@@ -141,6 +141,47 @@ First, we will bring in the data which for this eample has 5000 training example
 From Logistic Regression, these are the Equations  for the cost function and the hypothesis:
 \\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}[-y log(h\theta(x{^i})) - (1-y({^i})) log (1-h\theta(x{^i}))]\\] 
  
+We, then compute each element in the summation, we compute \\(h\theta(x{^i})\\) for evey training example,i. where  \\(h\theta(x{^i}) = g(\theta^T x^(i))\\) and \\(g(z) = frac{1}(1+e^(-1)}\\) is the sigmoid function. X and \theta are defined as:
+ \begin{pmatrix} X =
+   - (x^(1))^T - \\\
+   - (x^(2))^T - \\\
+   - (x^(3))^T - \\\  
+   \vdots\\\
+   - (x^(m))^T -  
+  \end{pmatrix}  \and
+  \begin{pmatrix} \theta =
+   \theta_(0))^T - \\\
+   \theta_(1))^T - \\\  
+   \vdots\\\
+   \theta_n 
+  \end{pmatrix} 
+ Then by computingmatrix product X\theta, we have:
+  \\[
+\begin{pmatrix}
+     - (x^(1))^T\theta -\\
+     - (x^(2)^T\theta -\\\
+     \vdots\\\
+     - (x^(m))^T\theta -      
+ \end{pmatrix}  \= \begin{pmatrix}
+    - \theta^T(x^(1)) -\\
+     - \theta^T(x^(2) -\\\
+     \vdots\\\
+     - \theta^T (x^(m))   
+  \end{pmatrix}  \\] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
