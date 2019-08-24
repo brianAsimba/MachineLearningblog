@@ -210,7 +210,9 @@ Now we will add regularization to the Logistic Regression in order to avoid over
 Where we do not regalarize the \\(\theta_0\\) whioch is used for the bias term. The partial derivatives for the regalarized logistic regressions is given as follows:
 
 \\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)})\\] for j=0
-\\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)}) +\frac{\lambda}{m}\theta_j\\] 
+\\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)}) +\frac{\lambda}{m}\theta_j\\] for j>=1
+
+Now, we can run the Logistic Regression classifiers for the MNIST dataset. This will require 10 classifiers to be ran. 
 
  
  
