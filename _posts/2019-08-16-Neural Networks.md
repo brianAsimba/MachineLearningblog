@@ -185,9 +185,9 @@ In order to vectorize, we should first write out the partial derivatives as show
      \frac{\partial J }{partial\theta_n}     
  \end{pmatrix}  \=  \frac{1}{m}\begin{pmatrix} 
  \begin{pmatrix}
-     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_0{^i}) \\\
-     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_1{^i})  \\\
-     \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_2{^i})  \\\
+     \sum_{i=1}^{m}[(h_\theta(x{^i})) - y({^i}))x_0{^i}) \\\
+     \sum_{i=1}^{m}[(h_\theta(x{^i})) - y({^i}))x_1{^i})  \\\
+     \sum_{i=1}^{m}[(h_\theta(x{^i})) - y({^i}))x_2{^i})  \\\
      \vdots\\\
      \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_n{^i})    
  \end{pmatrix}\\] 
@@ -195,11 +195,14 @@ In order to vectorize, we should first write out the partial derivatives as show
  The vectorized version yields:
 \\[\frac{1}{m}\sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x^{i}) =\frac{1}{m}X^T [(h\theta(x) - y)\\] 
  
- 
- 
- 
- 
- 
+ where:
+ \\[  \begin{pmatrix} (h_\theta(x) - y) \=
+     (h_\theta(x{^1})) - y({^1}) \\\
+     (h_\theta(x{^2})) - y({^2})  \\\
+     \vdots\\\
+     (h_\theta(x{^m})) - y({^m})  \\\
+ \end{pmatrix}  
+\\] 
  
  
  
