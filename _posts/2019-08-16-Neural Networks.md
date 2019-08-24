@@ -124,17 +124,22 @@ x_1    x_2 | a_{1}^{(2)}   a_{2}^{(2)}  |\\[[h_\theta(x)]\\
 
 From the truth table, you can see that the parameters x_1 or x_2, gives the value 1 only when either x_1 or x_2 is positive.
 
+When working with Neural Networks, it is always good to print out the sizes of the matrices and vectors to ensure that the vectors can be multiplied together to get the correcet sizes. We are going to look into a code example where we are going to be running al algorithms for multi-class classification.
+
+First, we will bring in the data which for this eample has 5000 training examples in which each training example is a 20 pixel by 20 pixel grayscale image of the digit.The 20 by 20 pixedls is "unrolled" into a 400 dimensinal vector. THis will result in a 5000 by 400 matrix X where each row is a training example as shown below:
+
+ \begin{pmatrix}
+   - (x^(1))^T - \\\
+   - (x^(2))^T - \\\
+   - (x^(3))^T - \\\  
+   \vdots\\\
+   - (x^(m))^T -  
+  \end{pmatrix} 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ The y is a 5000-dimensional array that contains the label for the training set. We will beusing multiple one-vs-all logistic regression models to build the multi-class classifier. Next, we will vectorize the code, which will enable it to be computationally efficient. For the 10 classes that we want to recognize the digits, we will need to train 10 separate logistic regression classifiers. 
+
+From Logistic Regression, these are the Equations  for the cost function and the hypothesis:
+\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}[-y log(h\theta(x{^i})) - (1-y({^i})) log (1-h\theta(x{^i}))]\\] 
  
  
  
