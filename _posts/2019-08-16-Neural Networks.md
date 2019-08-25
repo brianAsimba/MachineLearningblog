@@ -218,8 +218,8 @@ Now, we can run the Logistic Regression classifiers for the MNIST dataset. This 
  
  
  
- 
- 
+Neural Networks code:
+
  
  
  
