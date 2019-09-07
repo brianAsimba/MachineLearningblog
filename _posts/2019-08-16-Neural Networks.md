@@ -155,7 +155,7 @@ We, then compute each element in the summation, we compute \\(h\theta(x{^i})\\) 
    \vdots\\\
    \theta_n 
   \end{pmatrix} 
- Then by computingmatrix product X\theta, we have:
+ Then by computing matrix product X\theta, we have:
   \\[
 \begin{pmatrix}
      - (x^(1))^T\theta -\\\
@@ -207,18 +207,21 @@ In order to vectorize, we should first write out the partial derivatives as show
  ## Vectorizing Regularized Logistic Regression
 Now we will add regularization to the Logistic Regression in order to avoid overfitting of the parameters. The Regularized Logistic regression is given by:
 \\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}(-y log(h\theta(x{^i})) - (1-y({^i})) log (1-h\theta(x{^i}))) + \frac{\lambda}{2m}\sum_{j=1}^{n} \theta_j{^2}\\] 
-Where we do not regalarize the \\(\theta_0\\) whioch is used for the bias term. The partial derivatives for the regalarized logistic regressions is given as follows:
+Where we do not regularize the \\(\theta_0\\) which is used for the bias term. The partial derivatives for the regularized logistic regressions is given as follows:
 
 \\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)})\\] for j=0
 \\[\frac{\partial J}{\partial \theta_j} =  \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x{^i})) - y^(i))(x_j{^(i)}) +\frac{\lambda}{m}\theta_j\\] for j>=1
 
 Now, we can run the Logistic Regression classifiers for the MNIST dataset. This will require 10 classifiers to be ran. 
 
+
+
+
+
  
  
- 
- 
-Neural Networks code:
+Neural Networks code for MNIST dataset problem:
+
 
  
  
