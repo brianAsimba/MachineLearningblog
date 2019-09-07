@@ -191,7 +191,6 @@ In order to vectorize, we should first write out the partial derivatives as show
      \vdots\\\
      \sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x_n{^i})    
  \end{pmatrix}\\] 
-  
  The vectorized version yields:
 \\[\frac{1}{m}\sum_{i=1}^{m}[(h\theta(x{^i})) - y({^i}))x^{i}) =\frac{1}{m}X^T [(h\theta(x) - y)\\] 
  
@@ -221,6 +220,39 @@ Now, we can run the Logistic Regression classifiers for the MNIST dataset. This 
  
  
 Neural Networks code for MNIST dataset problem:
+Now, we will implement the same MNIST problem using Neural Networks. For the Neural Network, the sizes of the input, hidden and output layers will be 401 and 26 respectively. This is because we add a bias unit to both of the layers. 
+
+
+
+
+
+
+We will first implement the cost function for the neural network (without regularization) which is given by:
+\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(-y_{k}^{(i)}  log(h\theta(x{^i})_k) - (1- -y_{k}^{(i)} log (1-h\theta(x{^i}))_k)\\]
+
+Where the \\(h_\theta_x^{i}\\)is computed as shown in the figure 2, and K = 10 which is the number of possible labels. Note that \\((h_\theta_x^{i})_k = a_{k}^{(3)}\\) is the activation of the k-th output unit. FOr the neural network, the y labels are given as shown belo for 1,5 and 10:
+ \\[
+\begin{pmatrix} y =
+     1 \\\
+     0 \\\
+     0 \\\
+     \vdots\\\
+     0     
+ \end{pmatrix}  \,
+ \begin{pmatrix}
+     0 \\\
+     0  \\\
+     3  \\\
+     \vdots\\\
+     0   
+ \end{pmatrix} \or
+ \begin{pmatrix}
+     0 \\\
+     0  \\\
+     0  \\\
+     \vdots\\\
+     1   
+ \end{pmatrix}\\] 
 
 
  
