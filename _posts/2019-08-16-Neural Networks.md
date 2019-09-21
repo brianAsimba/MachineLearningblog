@@ -255,12 +255,14 @@ Where the \\(h_\theta_x^{i}\\)is computed as shown in the figure 2, and K = 10 w
  \end{pmatrix}\\] 
 
 The Regularized cost function for Neural Networks is given by:
-\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(-y_{k}^{(i)}  log(h\theta(x{^i})_k) - (1- -y_{k}^{(i)} log (1-h\theta(x{^i}))_k) + \frac{\lambda}{2m}[\sum_{j=1}^{25} \sum_{k=1}^{400} (\theta_j,k^(l)){^2} +\sum_{j=1}^{10} \sum_{k=1}^{25} (\theta_j,k^(2)){^2}]\\] 
+\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(-y_{k}^{(i)}  log(h\theta(x{^i})_k) - (1- -y_{k}^{(i)} log (1-h\theta(x{^i}))_k) + \frac{\lambda}{2m}[\sum_{j=1}^{25} \sum_{k=1}^{400} (\theta_j,k^(1)){^2} +\sum_{j=1}^{10} \sum_{k=1}^{25} (\theta_j,k^(2)){^2}]\\] 
 
 
- 
- 
- 
+Of note, is to ensure that we do not regalarize the bias terms in the naural network, which will correspond to the first terms in the matrices in \\(\theta1)\\ and \\(\theta2)\\.Addition of the regularization parameters should ensure that the neural networks does not overfit the training data. Now we will implement the backpropagation algorithm to compute the gradient for the neural network cost function. After computing the gradient, we will be using fmincg to optimize the neural network algorithm. We will first implement the sigmpoid fuction gradient function which is easily got by differentiating the signoid function as shown:
+
+
+
+\\(g(z) = frac{1}(1+e^(-1)}\\)
  
  
  
