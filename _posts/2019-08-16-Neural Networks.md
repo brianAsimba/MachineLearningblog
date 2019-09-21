@@ -12,7 +12,7 @@ tags:
 comments: true
 published: true
 ---
-Birds inspored us to fly, burdock plants inspired velcro, and nature has inspired many other inventions. It seems logical, then ,to look at the brains's architecture for inspiration on how to build an intelligent machine. Neural networks were created to try and mimic the most intelligent machine, the brain. Artificial Neural Networks are versatile, powerful and scalable making them ideal to tackle large and highly complex Machine Learning tasks, suchas classifying billions of images e.g. Google images, powering speech recognition services e.g. Apple's siri, recommending the best videos to watch to hundreds  ot users everyday, e,g. Youtuce, NEtflis, or learning to beat the world champion at the game of Go by examining millions of past game and playing against itself (Deepmeind's AlphaGo).
+Birds inspored us to fly, burdock plants inspired velcro, and nature has inspired many other inventions. It seems logical, then ,to look at the brains's architecture for inspiration on how to build an intelligent machine. Neural networks were created to try and mimic the most intelligent machine, the brain. Artificial Neural Networks are versatile, powerful and scalable making them ideal to tackle large and highly complex Machine Learning tasks, suchas classifying billions of images e.g. Google images, powering speech recognition services e.g. Apple's siri, recommending the best videos to watch to hundreds  ot users everyday, e,g. Youtuce, Netflix, or learning to beat the world champion at the game of Go by examining millions of past game and playing against itself (Deepmeind's AlphaGo).
 
 In the 80s, there was a revival of interest in the ANNs as new network architectures were invented and better training techniques were developed. But in the 1990s, powerful alternative MAchine Learning techniques such as Support  Vectoe Machines were favored by nost researchers as they seemed battere results and stronger theoretial foundations. The question is, whiu is there new revival in ANNs, there are a number of reasons:
 1). A huge quantity of data is available to train neural networks and ANNs are outperforming the other ML techniques on very large and complex problems.
@@ -228,7 +228,7 @@ Now, we will implement the same MNIST problem using Neural Networks. For the Neu
 
 
 We will first implement the cost function for the neural network (without regularization) which is given by:
-\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(-y_{k}^{(i)}  log(h\theta(x{^i})_k) - (1- -y_{k}^{(i)} log (1-h\theta(x{^i}))_k)\\]
+\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(-y_{k}^{(i)}  log(h\theta(x{^i})_k) - (1- -y_{k}^{(i)} log (1-h\theta(x{^i}))k)\\]
 
 Where the \\(h_\theta_x^{i}\\)is computed as shown in the figure 2, and K = 10 which is the number of possible labels. Note that \\((h_\theta_x^{i})_k = a_{k}^{(3)}\\) is the activation of the k-th output unit. FOr the neural network, the y labels are given as shown belo for 1,5 and 10:
  \\[
@@ -254,9 +254,10 @@ Where the \\(h_\theta_x^{i}\\)is computed as shown in the figure 2, and K = 10 w
      1   
  \end{pmatrix}\\] 
 
+The Regularized cost function for Neural Networks is given by:
+\\[ J(\theta)_ = \frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(-y_{k}^{(i)}  log(h\theta(x{^i})_k) - (1- -y_{k}^{(i)} log (1-h\theta(x{^i}))_k) + \frac{\lambda}{2m}[\sum_{j=1}^{25} \sum_{k=1}^{400} (\theta_j,k^(l)){^2} +\sum_{j=1}^{10} \sum_{k=1}^{25} (\theta_j,k^(2)){^2}]\\] 
 
- 
- 
+
  
  
  
