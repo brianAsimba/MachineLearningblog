@@ -260,13 +260,13 @@ The Regularized cost function for Neural Networks is given by:
 
 Of note, is to ensure that we do not regalarize the bias terms in the naural network, which will correspond to the first terms in the matrices in \\(\theta1)\\ and \\(\theta2)\\.Addition of the regularization parameters should ensure that the neural networks does not overfit the training data. Now we will implement the backpropagation algorithm to compute the gradient for the neural network cost function. After computing the gradient, we will be using fmincg to optimize the neural network algorithm. We will first implement the sigmpoid fuction gradient function which is easily got by differentiating the signoid function as shown:
 
+\\[g'(z) =  \frac{d}{dz}g(z))=g(z)(1-g(z))\\]
+ 
+where:
+\\[sigmoid(z) = g(z) = frac{1}(1+e^(-z)}\\]
+ 
+It is important to initialize the neural networks parametersfor symmentry breaking. We can do this via random initialization to randomly select theta values between a range. FOr this neural network we will be using range of (-0.12, 0.12). THis range ensures that the parameters are kept small and the learning is effective.ANother way to choose the effective parameters to start with, is using this equation:
 
-
-\\(g(z) = frac{1}(1+e^(-1)}\\)
- 
- 
- 
- 
  
  
  
