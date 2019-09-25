@@ -274,9 +274,16 @@ Where \\(L_{in} = s_l\\) and \\(L_{out} = s_{l+1}\\) are the number of units in 
  
  
 Backpropagation:
-For each training example, the algorithm feeds it to the neural network and computes the output of each neuron in each consecutive layer, which is the feedwforward step of the neural network. Then the network measured the output error between the desired output,y_hat, and the actual output, y. Then it computes how much error each neuron in the last hidden layer contributed to the overall error in the ouput error. THen propagates that to compute how much of the errors were contributed by the other neurons in the previous hidden layers and so on until the last hidden layer is reached. There is no error evaluated for the inout layer, since we do not modify the inputs. 
- 
- 
+For each training example, the algorithm feeds it to the neural network and computes the output of each neuron in each consecutive layer, which is the feedwforward step of the neural network. Then the network measured the output error between the desired output,y_hat, and the actual output, y. Then it computes how much error each neuron in the last hidden layer contributed to the overall error in the ouput error. THen propagates that to compute how much of the errors were contributed by the other neurons in the previous hidden layers and so on until the last hidden layer is reached. There is no error evaluated for the inout layer, since we do not modify the inputs. The name backpropagation, comes from the propagating of the errors from the output layer to the other hidden layers. The last step after the backpropagation, is a Gradient Descent step on alla the connection weights using the error gradient that was measured from the backpropagation.
+
+It is also good to note that the activation functions are used inorder to have a gradient to work with while performing Gradient Descent. Since the sigmoid has a well defined nonzero derivative everywhere, it assists Gradient Descent to make some progress in each step it takes. It is good to note that there are other activation functions that are also being used that might work better than the sigmoid function such as hyperbolic tangent function tanh, Rectified Linear Units (ReLU) and Leaky Rectified Linear Units (ReLU). The sigmoid is mostly used in classification, where we want to classify as 0 or 1, examples in spam filters, cancer cell classification etc.
+
+
+
+
+
+
+
  
  
  
