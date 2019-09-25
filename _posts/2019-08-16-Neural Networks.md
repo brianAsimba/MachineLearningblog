@@ -273,10 +273,8 @@ Where \\(L_{in} = s_l\\) and \\(L_{out} = s_{l+1}\\) are the number of units in 
 
  
  
- 
- 
- 
- 
+Backpropagation:
+For each training example, the algorithm feeds it to the neural network and computes the output of each neuron in each consecutive layer, which is the feedwforward step of the neural network. Then the network measured the output error between the desired output,y_hat, and the actual output, y. Then it computes how much error each neuron in the last hidden layer contributed to the overall error in the ouput error. THen propagates that to compute how much of the errors were contributed by the other neurons in the previous hidden layers and so on until the last hidden layer is reached. There is no error evaluated for the inout layer, since we do not modify the inputs. 
  
  
  
