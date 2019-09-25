@@ -265,7 +265,11 @@ Of note, is to ensure that we do not regalarize the bias terms in the naural net
 where:
 \\[sigmoid(z) = g(z) = frac{1}(1+e^(-z)}\\]
  
-It is important to initialize the neural networks parametersfor symmentry breaking. We can do this via random initialization to randomly select theta values between a range. FOr this neural network we will be using range of (-0.12, 0.12). THis range ensures that the parameters are kept small and the learning is effective.ANother way to choose the effective parameters to start with, is using this equation:
+It is important to initialize the neural networks parametersfor symmentry breaking. We can do this via random initialization to randomly select theta values between a range. FOr this neural network we will be using range of (-0.12, 0.12). THis range ensures that the parameters are kept small and the learning is effective.Another way to choose the effective parameters to start with, is using this equation:
+
+\\[\epsilon_{init} = \frac{\sqrt{6}}{\sqrt{L_{in}}+ {\sqrt{L_{out}}}}\\] 
+
+Where \\(L_{in} = s_l\\) and \\(L_{out} = s_{l+1}\\) are the number of units in the layers adjacent to \\(\theta^l\\)
 
  
  
