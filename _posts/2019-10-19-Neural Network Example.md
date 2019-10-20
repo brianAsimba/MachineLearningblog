@@ -28,7 +28,7 @@ This is an example of Neural Networks matha and how backpropagation is done. In 
 </figure>
 
 <figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_3.png" style="display: block; margin: auto;"/>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/3.png" style="display: block; margin: auto;"/>
 <figcaption>Branches of Machine Learning</figcaption> 
 </figure>
 
