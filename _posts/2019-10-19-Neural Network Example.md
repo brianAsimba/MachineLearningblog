@@ -20,51 +20,51 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_1.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Neural Network Architecture</figcaption> 
 </figure>
 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_2.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>First Hidden layer Forward Propagation</figcaption> 
 </figure>
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/3.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Second Hidden layer Forward Propagation</figcaption> 
 </figure>
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_4.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Third Hidden layer Forward Propagation</figcaption> 
 </figure>
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_5.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Activation Functions Derivatives</figcaption> 
 </figure>
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_6.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Derivative of Error with Output</figcaption> 
 </figure>
 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_7.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Derivative of the Weight</figcaption> 
 </figure>
 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_8.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Weights Updating for Third Hidden layer</figcaption> 
 </figure>
 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_9.png" style="display: block; margin: auto;"/>
-<figcaption>Branches of Machine Learning</figcaption> 
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>
 
 
