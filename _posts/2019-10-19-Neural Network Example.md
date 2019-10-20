@@ -16,10 +16,54 @@ published: true
 ---
 This is an example of Neural Networks matha and how backpropagation is done. In this example I will be going theough the math of the forward and backpropagation. After completing the math, I will write code to calculate the same. This will be be particularly be helpful for beginners as they can understand what goes on behind the scenes, especially in backpropagation. I will add links to these math derivations on where to dig deeper or videos to watch to understand better what I am doing.
 
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_1.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
 
 
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_2.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_3.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_4.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_5.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_6.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
 
 
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_7.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
+
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_8.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
+
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_9.pdf" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
 
 
 
