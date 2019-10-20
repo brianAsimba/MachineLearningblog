@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neural Networks Example, Math and code
-date: 2019-06-06
+date: 2019-10-19
 excerpt: Neural Networks
 tags:
   - Machine Learning
