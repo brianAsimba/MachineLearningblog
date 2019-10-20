@@ -14,7 +14,7 @@ tags:
 comments: true
 published: true
 ---
-This is an example of Neural Networks matha and how backpropagation is done. In this example I will be going theough the math of the forward and backpropagation. After completing the math, I will write code to calculate the same. This will be be particularly be helpful for beginners as they can understand what goes on behind the scenes, especially in backpropagation. I will add links to these math derivations on where to dig deeper or videos to watch to understand better what I am doing.
+In this blog post, we will go through the fukk process of forward and backpropagation in Neural Networks. I will debunk the backpropagation mystery that most have accepted to be a black box. After completing the math, I will write code to calculate the same. This will be be particularly be helpful for beginners as they can understand what goes on behind the scenes, especially in backpropagation. Links will be added to assist those who want to dig deeper or want to have a better understanding. The Activation functions that are going to be used are the sigmoid function, Rectified Linear Unit (ReLu) and the Softmax function in the output layer. It is important to note that, it is not important to use different activations as in this example. 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_1.png" style="display: block; margin: auto;"/>
