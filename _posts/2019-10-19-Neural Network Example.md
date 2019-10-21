@@ -68,7 +68,7 @@ I am looking for questions from the readers and I will be adding notes, as well 
 </figure>
 
 <figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/images/page_10-A.png" style="display: block; margin: auto;"/>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/page10-A.png" style="display: block; margin: auto;"/>
 <figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>
 
@@ -91,7 +91,7 @@ I am looking for questions from the readers and I will be adding notes, as well 
 </figure>
 
 <figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_14.png" style="display: block; margin: auto;"/>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page 14.png" style="display: block; margin: auto;"/>
 <figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>
 
