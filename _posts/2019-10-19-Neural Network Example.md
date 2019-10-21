@@ -63,11 +63,43 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 
 <figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_9.png" style="display: block; margin: auto;"/>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/page_9A.png" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/page_10-A.png" style="display: block; margin: auto;"/>
 <figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>
 
 
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/page_11.png" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>
+
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_12.png" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>
+
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_13.png" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_14.png" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>
+
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Page_15.png" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>
 
 References:
 1. https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c
