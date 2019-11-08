@@ -45,6 +45,12 @@ I am looking for questions from the readers and I will be adding notes, as well 
 </figure>
 
 <figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/images/Softmax_derivation.png" style="display: block; margin: auto;"/>
+<figcaption>Softmax Derivative Explained</figcaption> 
+</figure>
+
+
+<figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_6.png" style="display: block; margin: auto;"/>
 <figcaption>Derivative of Error with Output</figcaption> 
 </figure>
