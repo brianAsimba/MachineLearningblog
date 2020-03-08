@@ -107,5 +107,19 @@ I am looking for questions from the readers and I will be adding notes, as well 
 <figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>
 
+
+Here is the github code for this mathematical calculation:
+
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipyn" style="display: block; margin: auto;"/>
+<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+</figure>" style="display: block; margin: auto;"/>
+
+
+
+
+
+
 References:
 1. https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c
