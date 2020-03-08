@@ -93,18 +93,18 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_13.png" style="display: block; margin: auto;"/>
-<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+<figcaption>Back propagation to the First Hidden layer</figcaption> 
 </figure>
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page 14.png" style="display: block; margin: auto;"/>
-<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+<figcaption>Back propagation to the First Hidden layer</figcaption> 
 </figure>
 
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/images/Page_15.png" style="display: block; margin: auto;"/>
-<figcaption>Back propagation to the Second Hidden layer</figcaption> 
+<figcaption>Back propagation to the First Hidden layer</figcaption> 
 </figure>
 
 
