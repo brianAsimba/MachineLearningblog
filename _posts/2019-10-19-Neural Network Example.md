@@ -112,7 +112,7 @@ Here is the github code for this mathematical calculation:
 
 <figure>
 <img src="https://brianasimba.github.io/MachineLearningblog/<figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipyn" style="display: block; margin: auto;"/>
+<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipynb" style="display: block; margin: auto;"/>
 <figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>" style="display: block; margin: auto;"/>
 
