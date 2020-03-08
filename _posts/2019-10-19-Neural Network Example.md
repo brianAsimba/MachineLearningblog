@@ -116,7 +116,10 @@ Here is the github code for this mathematical calculation:
 <figcaption>Back propagation to the Second Hidden layer</figcaption> 
 </figure>" style="display: block; margin: auto;"/>
 
-
+<figure>
+<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipyn" style="display: block; margin: auto;"/>
+<figcaption>Branches of Machine Learning</figcaption> 
+</figure>
 
 
 
