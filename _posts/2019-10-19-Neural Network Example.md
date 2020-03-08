@@ -117,7 +117,7 @@ Here is the github code for this mathematical calculation:
 </figure>" style="display: block; margin: auto;"/>
 
 <figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipyn" style="display: block; margin: auto;"/>
+<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipynb" style="display: block; margin: auto;"/>
 <figcaption>Branches of Machine Learning</figcaption> 
 </figure>
 
