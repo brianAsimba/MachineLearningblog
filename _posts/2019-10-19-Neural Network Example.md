@@ -110,9 +110,8 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 Here is the github code for this mathematical calculation:
 
-<html>
-    <a href="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipynb">View Project</a>
-</html>
+https://brianasimba.github.io/MachineLearningblog/Code for paper.html"
+
 
 
 
