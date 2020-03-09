@@ -110,15 +110,8 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 Here is the github code for this mathematical calculation:
 
-<figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/<figure>
-<img src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipynb" style="display: block; margin: auto;"/>
-<figcaption>Back propagation to the Second Hidden layer</figcaption> 
-</figure>" style="display: block; margin: auto;"/>
-
 <html>
     <a href="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipynb">View Project</a>
-<figcaption>Branches of Machine Learning</figcaption> 
 </html>
 
 
