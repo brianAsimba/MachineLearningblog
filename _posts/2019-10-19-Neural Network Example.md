@@ -109,7 +109,9 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 
 Here is the github code for this mathematical calculation:
-<embed src="Code for paper.ipynb" style="display: block; margin: auto;"/>
+
+<embed src="https://brianasimba.github.io/MachineLearningblog/Code for paper.ipynb" width="500" height="375" 
+ type="application/pdf">
 
 
 
