@@ -115,5 +115,20 @@ Here is the github code for this mathematical calculation:
 
 <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html" height="200" width="300"></iframe>
 
-
+<!DOCTYPE html>  
+<html>  
+  
+<head> 
+    <title> 
+        HTML iframe src Attribute 
+    </title> 
+</head> 
+  
+<body style="text-align:center;">  
+      
+    <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"
+            height="200" width="400"></iframe>  
+</body>  
+  
+</html>  
 
