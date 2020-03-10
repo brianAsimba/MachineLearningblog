@@ -108,7 +108,7 @@ I am looking for questions from the readers and I will be adding notes, as well 
 </figure>
 
 
-Here is the github code for this mathematical calculation:
+Here is the Python code for this mathematical calculation:
 
  
 <html>  
@@ -128,7 +128,8 @@ Here is the github code for this mathematical calculation:
 </html>  
 
 
-
+References:
+* https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c
 
 
 
