@@ -122,7 +122,7 @@ Here is the github code for this mathematical calculation:
 <body style="text-align:center;">  
       
    <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"
-            height="1200" width="700"></iframe>  
+             width="700"></iframe>  
 </body>  
   
 </html>  
