@@ -110,7 +110,7 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 Here is the github code for this mathematical calculation:
 
-<!DOCTYPE html>  
+ 
 <html>  
   
 <head> 
@@ -126,4 +126,29 @@ Here is the github code for this mathematical calculation:
 </body>  
   
 </html>  
+
+
+
+<html>  
+  
+<head> 
+    <title> 
+        HTML iframe src Attribute 
+    </title> 
+</head> 
+  
+<body style="text-align:center;">  
+      
+   <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"</iframe>  
+   
+</body>  
+  
+</html>  
+
+
+
+
+
+
+
 
