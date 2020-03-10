@@ -122,28 +122,12 @@ Here is the github code for this mathematical calculation:
 <body style="text-align:center;">  
       
    <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"
-            height="200" width="700"></iframe>  
+            height="1200" width="700"></iframe>  
 </body>  
   
 </html>  
 
 
-
-<html>  
-  
-<head> 
-    <title> 
-        HTML iframe src Attribute 
-    </title> 
-</head> 
-  
-<body style="text-align:center;">  
-      
-   <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"</iframe>  
-   
-</body>  
-  
-</html>  
 
 
 
