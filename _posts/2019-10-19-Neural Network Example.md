@@ -110,9 +110,6 @@ I am looking for questions from the readers and I will be adding notes, as well 
 
 Here is the github code for this mathematical calculation:
 
-<embed src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html" width="500" height="375" 
- type="application/pdf">
-
 <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html" height="200" width="300"></iframe>
 
 <!DOCTYPE html>  
