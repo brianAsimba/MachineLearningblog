@@ -121,7 +121,7 @@ Here is the github code for this mathematical calculation:
   
 <body style="text-align:center;">  
       
-    <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"
+   <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html"
             height="200" width="400"></iframe>  
 </body>  
   
