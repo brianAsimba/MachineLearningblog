@@ -113,6 +113,7 @@ Here is the github code for this mathematical calculation:
 <embed src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html" width="500" height="375" 
  type="application/pdf">
 
+<iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper.html" height="200" width="300"></iframe>
 
 
 
