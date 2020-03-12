@@ -121,7 +121,7 @@ Here is the Python code for this mathematical calculation:
   
 <body style="text-align:center;">  
       
-   <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper-2.html"
+   <iframe src="https://brianasimba.github.io/MachineLearningblog/Code for paper-3.html"
             height="800" width="700"></iframe>  
 </body>  
   
