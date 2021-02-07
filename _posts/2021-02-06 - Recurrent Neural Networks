@@ -1,1 +1,19 @@
+---
+layout: post
+title: Matrices, Multivariate Linear Regression
+date: 2021-02-06
+excerpt: Reccurent Neural Networks / LSTM for Time Series
+tags:
+  - Machine Learning
+  - Supervised
+  - Time Series
+  - Recurrent Neural Networks
+  - Long-Short Term Memory (LSTM)
+comments: true
+published: true
+---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+## Recurrent Neural Networks:
+Recurrent Neural Networks or RNN are a class of neural networks that allows for future predictions through time series analysis such as stock prices, and
+tell you to buy or sell. They can work on sequences of arbitrary lengths. 
