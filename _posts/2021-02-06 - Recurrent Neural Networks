@@ -15,5 +15,15 @@ published: true
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Recurrent Neural Networks:
-Recurrent Neural Networks or RNN are a class of neural networks that allows for future predictions through time series analysis such as stock prices, and
-tell you to buy or sell. They can work on sequences of arbitrary lengths. 
+The neural networks that we ahe discussed so far do not take into account past information, the rely on the data given and make predictions from that data. What if we
+want to predict future stock prices, future plane ticket prices, next sentence or word in a sentence? These involve temporal dependencies, that is dependencies over time, to get accurate predictions.
+Enter Recurrent Reural Networks (RNN), what are these and how do they work? In this post,we will discuss what Recurrent Neural Networks, their use cases, limitations such as
+vanishing and exploding gradient and solutions to the challenges which involve using LSTMs and GRUs.
+
+Recurrent Neural Networks are a class of neural networks that allows for future predictions through time series analysis such as stock prices, and
+tell you when to buy or sell. They can work on sequences of arbitrary lengths. Recurrent Neural Networks enables us to incorporate memory into our neural networks.
+and are used to analyze time series data. RNNs are widely used in text generation, natural language processing, sentiment analysis, autonomous systems to name a few.
+
+The name Recurrent comes from reaccorung often and repeatedly. RNN is used when we perform 
+
+
